@@ -20,7 +20,7 @@
 Name: Deswanth
 Location: India 🇮🇳
 Education: Diploma in Computer Science Engineering
-Language: Java,pavani
+Language: Java,python,c++
 Currently Learning:
   - Data Structures & Algorithms
   - SQL
@@ -47,9 +47,9 @@ Goal:
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=deswanth12&show_icons=true&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=deswanth12&show_icons=true&theme=tokyonight&cache_seconds=1800"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deswanth12&layout=compact&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deswanth12&layout=compact&theme=tokyonight&cache_seconds=1800"/>
 
 </p>
 
