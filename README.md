@@ -20,7 +20,7 @@
 Name: Deswanth
 Location: India 🇮🇳
 Education: Diploma in Computer Science Engineering
-Language: Java,python,c++
+Language: Java,python
 Currently Learning:
   - Data Structures & Algorithms
   - SQL
