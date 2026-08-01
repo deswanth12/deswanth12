@@ -1,10 +1,10 @@
 <div align="center">
 
-<!-- ✨ Fiery Animated Banner ✨ -->
+<!-- ✨ Fiery Animated Hero Banner with Deswanth Photo ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=2">
-  <img src="./banner.svg?v=2" alt="Deswanth — Flame Hashira Frontend Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
+  <img src="./banner.svg?v=3" alt="Deswanth — SSS Class Flame Hashira Frontend Developer" width="100%"/>
 </picture>
 
 </div>
@@ -15,8 +15,8 @@
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<!-- 🪪 Swinging Lanyard ID Card (Flame Hashira Edition) -->
-<img src="./lanyard.svg?v=2" alt="Deswanth ID badge" width="330"/>
+<!-- 🪪 Swinging Lanyard ID Card with Deswanth's Photo -->
+<img src="./lanyard.svg?v=3" alt="Deswanth ID Badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
@@ -43,10 +43,24 @@
 
 <div align="center">
 
-### 📊 GitHub Stats & Arsenal
+### 🛠️ Arsenal & Skills
 
-<img src="./stats.svg?v=2" alt="GitHub Stats" height="185"/>
-<img src="./langs.svg?v=2" alt="Top Languages" height="185"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+</p>
+
+<br/>
+
+### 📊 GitHub Stats & Performance
+
+<img src="./stats.svg?v=3" alt="GitHub Stats" height="185"/>
+<img src="./langs.svg?v=3" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
@@ -54,13 +68,13 @@
 
 <br/><br/>
 
-<!-- 📈 Contribution Activity Graph (Fiery Theme) -->
+<!-- 📈 Contribution Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=deswanth12&bg_color=180a0e&color=ff9f1c&line=e63946&point=ffd166&area=true&area_color=e63946&hide_border=true&custom_title=Contribution%20Graph%20🔥" alt="Contribution graph" width="95%"/>
 
 <br/><br/>
 
 <!-- 🏆 Trophies (Animated Flame Edition) -->
-<img src="./trophies.svg?v=2" alt="Trophies" width="95%"/>
+<img src="./trophies.svg?v=3" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
@@ -73,7 +87,6 @@
 ### 📫 Let's Connect
 
 <a href="https://github.com/deswanth12"><img src="https://img.shields.io/badge/GitHub-ff9f1c?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="mailto:deswanth@example.com"><img src="https://img.shields.io/badge/Email-e63946?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 <br/><br/>
 

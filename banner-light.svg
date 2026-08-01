@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="Deswanth - Flame Hashira Frontend Developer (Light Mode)">
-<title>Deswanth — Flame Hashira Frontend Developer (Light Mode)</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="Deswanth - SSS Class Flame Hashira Frontend Developer (Light Mode)">
+<title>Deswanth — SSS Class Flame Hashira Frontend Developer (Light Mode)</title>
 <defs>
 <style type="text/css"><![CDATA[
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Outfit:wght@500;700;900&display=swap');
 text { font-family: 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
 .hero-title { font-family: 'Outfit', sans-serif; font-weight: 900; }
 
-@keyframes popIn { 0% { opacity: 0; transform: translateY(18px) scale(.85); } 70% { opacity: 1; transform: translateY(-4px) scale(1.04); } 100% { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes popIn { 0% { opacity: 0; transform: translateY(20px) scale(.85); } 70% { opacity: 1; transform: translateY(-4px) scale(1.04); } 100% { opacity: 1; transform: translateY(0) scale(1); } }
 @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-@keyframes floaty { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-@keyframes flamePulse { 0%, 100% { filter: drop-shadow(0 0 12px rgba(230, 57, 70, 0.4)); } 50% { filter: drop-shadow(0 0 22px rgba(255, 111, 0, 0.6)); } }
+@keyframes floaty { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+@keyframes spinRing { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+@keyframes flamePulse { 0%, 100% { filter: drop-shadow(0 0 15px rgba(230, 57, 70, 0.4)); } 50% { filter: drop-shadow(0 0 25px rgba(255, 111, 0, 0.6)); } }
 
 .pill { transition: transform .25s ease; transform-box: fill-box; transform-origin: center; cursor: pointer; }
 .pill:hover { transform: scale(1.08); }
 .cur { animation: blink 0.9s step-end infinite; }
 .flame-bg { animation: flamePulse 4s ease-in-out infinite; }
 .float-1 { animation: floaty 4.5s ease-in-out infinite; }
+.ring-spin { transform-box: fill-box; transform-origin: center; animation: spinRing 12s linear infinite; }
 ]]></style>
 
 <linearGradient id="bgGradLight" x1="0" y1="0" x2="1" y2="1">
@@ -35,54 +37,70 @@ text { font-family: 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
   <stop offset="50%" stop-color="#e63946"/>
   <stop offset="100%" stop-color="#fcbf49"/>
 </linearGradient>
+
+<clipPath id="avatarClipLight">
+  <circle cx="100" cy="100" r="92"/>
+</clipPath>
 </defs>
 
-<!-- Outer Container -->
 <rect width="1280" height="740" rx="24" fill="url(#bgGradLight)"/>
 <rect width="1276" height="736" x="2" y="2" rx="23" fill="none" stroke="url(#cardBorderLight)" stroke-width="2.5" opacity="0.9"/>
 
 <!-- Header -->
-<g transform="translate(80, 75)">
-  <rect width="270" height="42" rx="21" fill="#fff0ed" stroke="#f77f00" stroke-width="1.5"/>
+<g transform="translate(70, 68)">
+  <rect width="320" height="42" rx="21" fill="#fff0ed" stroke="#f77f00" stroke-width="1.5"/>
   <circle cx="24" cy="21" r="6" fill="#d62828"/>
-  <text x="40" y="26" fill="#d62828" font-size="14" font-weight="600" letter-spacing="1">🔥 FLAME HASHIRA MODE</text>
+  <text x="40" y="26" fill="#d62828" font-size="13" font-weight="700" letter-spacing="1">🔥 SSS-CLASS FLAME HASHIRA MODE</text>
 </g>
 
-<!-- Main Title (Deswanth) -->
-<g transform="translate(80, 220)">
-  <text class="hero-title flame-bg" x="0" y="0" font-size="78" fill="url(#titleGradLight)">DESWANTH</text>
+<!-- Title -->
+<g transform="translate(70, 210)">
+  <text class="hero-title flame-bg" x="0" y="0" font-size="82" fill="url(#titleGradLight)">DESWANTH</text>
   <g transform="translate(0, 48)">
-    <text x="0" y="0" fill="#3d1e24" font-size="24" font-weight="600">Frontend Developer &amp; Anime Craftsman ⚔️</text>
+    <text x="0" y="0" fill="#3d1e24" font-size="24" font-weight="600">Frontend Architect &amp; Anime Web Craftsman ⚔️</text>
   </g>
-  <g transform="translate(0, 95)">
-    <rect width="680" height="50" rx="12" fill="#fff0ec" stroke="#d62828" stroke-width="1.5"/>
-    <text x="20" y="31" fill="#c1121f" font-size="16" font-style="italic">🔥 &quot;Set your heart ablaze — code with untamed passion!&quot;</text>
+  <g transform="translate(0, 92)">
+    <rect width="560" height="52" rx="12" fill="#fff0ec" stroke="#d62828" stroke-width="1.5"/>
+    <text x="20" y="32" fill="#c1121f" font-size="16" font-style="italic">🔥 &quot;Set your heart ablaze — code with untamed passion!&quot;</text>
   </g>
 </g>
 
-<!-- Terminal Output Simulation Frame -->
-<g transform="translate(840, 120)" class="float-1">
-  <rect width="360" height="480" rx="16" fill="#fff5f2" stroke="url(#cardBorderLight)" stroke-width="2"/>
-  <path d="M840 136 a16 16 0 0 1 16 -16 h328 a16 16 0 0 1 16 16 v28 h-360 z" fill="#ffe3dc"/>
-  <circle cx="24" cy="20" r="6" fill="#d62828"/>
-  <circle cx="44" cy="20" r="6" fill="#f77f00"/>
-  <circle cx="64" cy="20" r="6" fill="#fcbf49"/>
-  <text x="180" y="24" fill="#80564e" font-size="12" text-anchor="middle">flame_core.ts</text>
-  <g transform="translate(24, 65)">
-    <text x="0" y="20" fill="#d62828" font-size="13">&gt; const developer = {</text>
-    <text x="20" y="45" fill="#f77f00" font-size="13">name: <tspan fill="#780000">&quot;Deswanth&quot;</tspan>,</text>
-    <text x="20" y="70" fill="#f77f00" font-size="13">github: <tspan fill="#780000">&quot;deswanth12&quot;</tspan>,</text>
-    <text x="20" y="95" fill="#f77f00" font-size="13">mode: <tspan fill="#780000">&quot;Flame Hashira 🔥&quot;</tspan>,</text>
-    <text x="20" y="120" fill="#f77f00" font-size="13">creations: [</text>
-    <text x="40" y="145" fill="#780000" font-size="13">&quot;Naruto Sage Mode&quot;,</text>
-    <text x="40" y="170" fill="#780000" font-size="13">&quot;Zoro King of Hell&quot;,</text>
-    <text x="40" y="195" fill="#780000" font-size="13">&quot;Demon Slayer Yoriichi&quot;,</text>
-    <text x="40" y="220" fill="#780000" font-size="13">&quot;One Piece 3D&quot;</text>
-    <text x="20" y="245" fill="#f77f00" font-size="13">],</text>
-    <text x="20" y="270" fill="#f77f00" font-size="13">status: <tspan fill="#780000">&quot;Building Web Magic&quot;</tspan></text>
+<!-- Avatar Photo Frame -->
+<g transform="translate(670, 150)" class="float-1">
+  <circle cx="100" cy="100" r="115" fill="none" stroke="#d62828" stroke-width="3" stroke-dasharray="14,8" class="ring-spin"/>
+  <circle cx="100" cy="100" r="96" fill="#fff" stroke="#f77f00" stroke-width="4"/>
+  <g clip-path="url(#avatarClipLight)">
+    <image href="./deswanth-avatar.png" xlink:href="https://raw.githubusercontent.com/deswanth12/deswanth12/main/deswanth-avatar.png" x="0" y="-15" width="200" height="230" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <g transform="translate(100, 185)">
+    <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#fff0ec" stroke="#d62828" stroke-width="1.5"/>
+    <text x="0" y="4" fill="#d62828" font-size="12" font-weight="700" text-anchor="middle">⚡ DESWANTH ⚡</text>
+  </g>
+</g>
+
+<!-- Terminal -->
+<g transform="translate(900, 110)">
+  <rect width="320" height="470" rx="16" fill="#fff5f2" stroke="url(#cardBorderLight)" stroke-width="2"/>
+  <path d="M900 126 a16 16 0 0 1 16 -16 h288 a16 16 0 0 1 16 16 v28 h-320 z" fill="#ffe3dc"/>
+  <circle cx="20" cy="20" r="6" fill="#d62828"/>
+  <circle cx="38" cy="20" r="6" fill="#f77f00"/>
+  <circle cx="56" cy="20" r="6" fill="#fcbf49"/>
+  <text x="160" y="24" fill="#80564e" font-size="12" text-anchor="middle">deswanth_core.ts</text>
+  <g transform="translate(20, 62)">
+    <text x="0" y="20" fill="#d62828" font-size="13">&gt; const deswanth = {</text>
+    <text x="16" y="45" fill="#f77f00" font-size="13">user: <tspan fill="#780000">&quot;deswanth12&quot;</tspan>,</text>
+    <text x="16" y="70" fill="#f77f00" font-size="13">role: <tspan fill="#780000">&quot;Frontend Dev ⚔️&quot;</tspan>,</text>
+    <text x="16" y="95" fill="#f77f00" font-size="13">rank: <tspan fill="#780000">&quot;SSS Hashira 🔥&quot;</tspan>,</text>
+    <text x="16" y="120" fill="#f77f00" font-size="13">creations: [</text>
+    <text x="32" y="145" fill="#780000" font-size="12">&quot;Naruto Sage Mode&quot;,</text>
+    <text x="32" y="170" fill="#780000" font-size="12">&quot;Zoro King of Hell&quot;,</text>
+    <text x="32" y="195" fill="#780000" font-size="12">&quot;Demon Slayer Art&quot;,</text>
+    <text x="32" y="220" fill="#780000" font-size="12">&quot;One Piece 3D&quot;</text>
+    <text x="16" y="245" fill="#f77f00" font-size="13">],</text>
+    <text x="16" y="270" fill="#f77f00" font-size="13">status: <tspan fill="#780000">&quot;Building Web Magic&quot;</tspan></text>
     <text x="0" y="295" fill="#d62828" font-size="13">};</text>
-    <text x="0" y="340" fill="#c1121f" font-size="13">flame@core:~ $ <tspan fill="#f77f00">npm run build:art</tspan></text>
-    <text x="0" y="370" fill="#d62828" font-size="13">✔ Rendered with 100% Passion <tspan class="cur" fill="#f77f00">█</tspan></text>
+    <text x="0" y="335" fill="#c1121f" font-size="12">deswanth@flame:~ $ <tspan fill="#f77f00">build</tspan></text>
+    <text x="0" y="365" fill="#d62828" font-size="12">✔ 100% Mindblowing Art <tspan class="cur" fill="#f77f00">█</tspan></text>
   </g>
 </g>
 </svg>
