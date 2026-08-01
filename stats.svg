@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-label="GitHub Stats Card">
-<title>Deswanth's GitHub Stats</title>
+<title>k Deswanth's GitHub Stats</title>
 <defs>
 <style type="text/css"><![CDATA[
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&family=Outfit:wght@700&display=swap');
@@ -26,34 +26,34 @@ text { font-family: 'Fira Code', Consolas, monospace; }
 
 <!-- Header -->
 <g transform="translate(25, 35)">
-  <text class="title" x="0" y="0">🔥 DESWANTH'S GITHUB STATS</text>
+  <text class="title" x="0" y="0">⚡ K DESWANTH'S GITHUB STATS</text>
   <line x1="0" y1="12" x2="445" y2="12" stroke="#e63946" stroke-width="1" opacity="0.4"/>
 </g>
 
 <!-- Stats Grid -->
 <g transform="translate(30, 75)">
   <g transform="translate(0, 0)">
-    <text x="0" y="0" class="stat-label">⭐ Total Stars Earned:</text>
-    <text x="180" y="0" class="stat-value" fill="#ffd166">50+ Stars</text>
+    <text x="0" y="0" class="stat-label">📁 Public Repositories:</text>
+    <text x="190" y="0" class="stat-value" fill="#ffd166">14 Repos</text>
   </g>
   <g transform="translate(0, 26)">
-    <text x="0" y="0" class="stat-label">⚡ Total Commits:</text>
-    <text x="180" y="0" class="stat-value" fill="#ff9f1c">500+ Commits</text>
+    <text x="0" y="0" class="stat-label">🤖 Primary Focus:</text>
+    <text x="190" y="0" class="stat-value" fill="#ff9f1c">AI Infra &amp; FullStack</text>
   </g>
   <g transform="translate(0, 52)">
-    <text x="0" y="0" class="stat-label">🔀 Pull Requests:</text>
-    <text x="180" y="0" class="stat-value" fill="#ffd166">40+ Merged</text>
+    <text x="0" y="0" class="stat-label">⭐ Total Stars Earned:</text>
+    <text x="190" y="0" class="stat-value" fill="#ffd166">5 Stars</text>
   </g>
   <g transform="translate(0, 78)">
-    <text x="0" y="0" class="stat-label">🎯 Contributed Repos:</text>
-    <text x="180" y="0" class="stat-value" fill="#ff6b35">12+ Projects</text>
+    <text x="0" y="0" class="stat-label">✉️ Email Contact:</text>
+    <text x="190" y="0" class="stat-value" fill="#ff6b35">deswanth12@gmail</text>
   </g>
 </g>
 
 <!-- Rank Badge Circle -->
-<g transform="translate(390, 115)" class="rank-ring">
+<g transform="translate(395, 115)" class="rank-ring">
   <circle cx="0" cy="0" r="42" fill="#240c14" stroke="#ff9f1c" stroke-width="3"/>
   <text x="0" y="-6" fill="#a08088" font-size="10" font-weight="700" text-anchor="middle">RANK</text>
-  <text x="0" y="16" fill="#ffd166" font-size="22" font-weight="700" text-anchor="middle">A+</text>
+  <text x="0" y="16" fill="#ffd166" font-size="20" font-weight="700" text-anchor="middle">SSS</text>
 </g>
 </svg>

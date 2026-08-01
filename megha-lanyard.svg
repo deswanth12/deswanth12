@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="Deswanth Flame Hashira ID Card Lanyard">
-<title>Deswanth — Flame Hashira Swinging ID Badge</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="k Deswanth AI Infra Developer ID Card Lanyard">
+<title>k Deswanth — AI Infra Developer ID Badge</title>
 <defs>
 <style type="text/css"><![CDATA[
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&family=Outfit:wght@600;800;900&display=swap');
@@ -60,17 +60,14 @@ text { font-family: 'Fira Code', Consolas, monospace; }
 <clipPath id="lanyardAvatarClip"><circle cx="45" cy="45" r="42"/></clipPath>
 </defs>
 
-<!-- Background Glowing Aura -->
 <circle cx="210" cy="440" r="230" fill="url(#lglow)"><animate attributeName="r" values="230;255;230" dur="4.5s" repeatCount="indefinite"/></circle>
 
 <g class="settle">
 <g class="sway">
 
-  <!-- Straps -->
   <path d="M148 -10 L198 250 L204 250 L156 -10 Z" fill="url(#strapg)"/>
   <path d="M272 -10 L222 250 L216 250 L264 -10 Z" fill="url(#strapg)"/>
 
-  <!-- Clip -->
   <g transform="translate(192, 235)">
     <rect x="0" y="0" width="36" height="20" rx="4" fill="url(#metal)"/>
     <circle cx="18" cy="10" r="5" fill="#14070a"/>
@@ -78,17 +75,15 @@ text { font-family: 'Fira Code', Consolas, monospace; }
     <rect x="8" y="42" width="20" height="18" rx="4" fill="url(#metal)"/>
   </g>
 
-  <!-- ID Card Body -->
   <g class="wob" filter="url(#cardShadow)">
     <rect x="80" y="296" width="260" height="334" rx="22" fill="url(#cardborder)"/>
     <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardbg)"/>
     <rect x="180" y="306" width="60" height="12" rx="6" fill="#0d0406" stroke="url(#metal)" stroke-width="1.5"/>
 
     <path d="M82 328 h256 v45 h-256 z" fill="#290e15"/>
-    <text x="210" y="356" fill="#ffd166" font-size="13" font-weight="700" letter-spacing="2" text-anchor="middle" filter="url(#glow2)">🔥 HASHIRA PASS</text>
+    <text x="210" y="356" fill="#ffd166" font-size="13" font-weight="700" letter-spacing="2" text-anchor="middle" filter="url(#glow2)">🤖 AI INFRA PASS</text>
     <line x1="82" y1="373" x2="338" y2="373" stroke="#ff9f1c" stroke-width="1.5" opacity=".8"/>
 
-    <!-- Avatar Portrait Frame with Base64 Deswanth Photo -->
     <g transform="translate(165, 385)">
       <circle cx="45" cy="45" r="45" fill="#240c14" stroke="url(#cardborder)" stroke-width="3" filter="url(#glow2)"/>
       <g clip-path="url(#lanyardAvatarClip)">
@@ -96,20 +91,18 @@ text { font-family: 'Fira Code', Consolas, monospace; }
       </g>
     </g>
 
-    <!-- User Details (DESWANTH) -->
     <g transform="translate(210, 502)">
-      <text class="card-name" x="0" y="0" fill="url(#nameg)" font-size="22" text-anchor="middle" filter="url(#glow2)">DESWANTH</text>
-      <text x="0" y="20" fill="#ffd166" font-size="11" font-weight="600" letter-spacing="1" text-anchor="middle">FRONTEND &amp; ANIME CRAFTSMAN</text>
+      <text class="card-name" x="0" y="0" fill="url(#nameg)" font-size="20" text-anchor="middle" filter="url(#glow2)">K DESWANTH</text>
+      <text x="0" y="20" fill="#ffd166" font-size="11" font-weight="600" letter-spacing="1" text-anchor="middle">AI INFRA &amp; FULL-STACK</text>
       <line x1="-90" y1="32" x2="90" y2="32" stroke="#e63946" stroke-width="1" opacity=".5"/>
 
-      <text x="-80" y="52" fill="#a08088" font-size="10">ID NO:</text>
-      <text x="-80" y="66" fill="#ffffff" font-size="11" font-weight="700">#FLAME-1212</text>
+      <text x="-80" y="52" fill="#a08088" font-size="10">USER ID:</text>
+      <text x="-80" y="66" fill="#ffffff" font-size="11" font-weight="700">@deswanth12</text>
 
-      <text x="20" y="52" fill="#a08088" font-size="10">RANK:</text>
-      <text x="20" y="66" fill="#ff9f1c" font-size="11" font-weight="700">SSS HASHIRA</text>
+      <text x="20" y="52" fill="#a08088" font-size="10">FOCUS:</text>
+      <text x="20" y="66" fill="#ff9f1c" font-size="11" font-weight="700">AI INFRASTRUCTURE</text>
     </g>
 
-    <!-- Barcode -->
     <g transform="translate(112, 592)" opacity=".85">
       <rect x="0" y="0" width="196" height="22" fill="#fff" rx="4"/>
       <path d="M10 3v16M14 3v16M16 3v16M22 3v16M26 3v16M32 3v16M36 3v16M40 3v16M48 3v16M52 3v16M58 3v16M64 3v16M70 3v16M74 3v16M80 3v16M86 3v16M92 3v16M98 3v16M104 3v16M110 3v16M116 3v16M122 3v16M128 3v16M134 3v16M140 3v16M146 3v16M152 3v16M158 3v16M164 3v16M170 3v16M176 3v16M182 3v16" stroke="#000" stroke-width="2"/>
