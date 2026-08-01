@@ -19,10 +19,10 @@ jobs:
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: Meghamittal0920
+          github_user_name: deswanth12
           outputs: |
             dist/github-snake.svg?palette=github-dark
-            dist/github-snake-pink.svg?color_snake=#ff7eb6&color_dots=#2d1b4e,#5b2a86,#8b5cf6,#c084fc,#ff7eb6
+            dist/github-snake-flame.svg?color_snake=#ffd166&color_dots=#180a0e,#290e15,#e63946,#ff9f1c,#ffd166
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

@@ -112,7 +112,7 @@ text { font-family: 'Fira Code', Consolas, monospace; }
     <!-- Barcode -->
     <g transform="translate(112, 592)" opacity=".85">
       <rect x="0" y="0" width="196" height="22" fill="#fff" rx="4"/>
-      <path d="M10 3v16M14 3v16M16 3v16M22 3v16M26 3v16M32 3v16M36 3v16M40 3v16M48 3v16M52 3v16M58 3v16M64 3v16M70 3v16M74 3v16M80 3v16M86 3v16M92 3v16M98 3v16M104 3v16M110 3v16M116 3v16M122 3v16M128 3v16M134 3v16M140 3v16M146 3v16M152 3v16M158 3v16M164 3v16M176 3v16M182 3v16" stroke="#000" stroke-width="2"/>
+      <path d="M10 3v16M14 3v16M16 3v16M22 3v16M26 3v16M32 3v16M36 3v16M40 3v16M48 3v16M52 3v16M58 3v16M64 3v16M70 3v16M74 3v16M80 3v16M86 3v16M92 3v16M98 3v16M104 3v16M110 3v16M116 3v16M122 3v16M128 3v16M134 3v16M140 3v16M146 3v16M152 3v16M158 3v16M164 3v16M170 3v16M176 3v16M182 3v16" stroke="#000" stroke-width="2"/>
     </g>
 
     <g clip-path="url(#cardclip)">
