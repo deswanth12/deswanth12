@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="k Deswanth - AI Infrastructure &amp; Full-Stack Developer (Light Mode)">
-<title>k Deswanth — AI Infrastructure &amp; Full-Stack Developer (Light Mode)</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="k Deswanth - AI Infrastructure Architect &amp; Cybernetics Engineer (Light Mode)">
+<title>k Deswanth — AI Infrastructure Architect &amp; Cybernetics Engineer (Light Mode)</title>
 <defs>
 <style type="text/css"><![CDATA[
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Outfit:wght@500;700;900&display=swap');
 text { font-family: 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
-.hero-title { font-family: 'Outfit', sans-serif; font-weight: 900; }
+.hero-title { font-family: 'Outfit', sans-serif; font-weight: 900; letter-spacing: 2px; }
 
-@keyframes popIn { 0% { opacity: 0; transform: translateY(20px) scale(.85); } 70% { opacity: 1; transform: translateY(-4px) scale(1.04); } 100% { opacity: 1; transform: translateY(0) scale(1); } }
 @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
 @keyframes floaty { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 @keyframes spinRing { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
@@ -45,21 +44,21 @@ text { font-family: 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
 <rect width="1276" height="736" x="2" y="2" rx="23" fill="none" stroke="url(#cardBorderLight)" stroke-width="2.5" opacity="0.9"/>
 
 <!-- Header -->
-<g transform="translate(70, 68)">
-  <rect width="360" height="42" rx="21" fill="#fff0ed" stroke="#f77f00" stroke-width="1.5"/>
+<g transform="translate(70, 62)">
+  <rect width="390" height="42" rx="21" fill="#fff0ed" stroke="#f77f00" stroke-width="1.5"/>
   <circle cx="24" cy="21" r="6" fill="#d62828"/>
-  <text x="40" y="26" fill="#d62828" font-size="13" font-weight="700" letter-spacing="1">⚡ AI INFRASTRUCTURE &amp; FULL-STACK</text>
+  <text x="42" y="26" fill="#d62828" font-size="13" font-weight="700" letter-spacing="1.5">⚡ SYSTEM STATUS: AI INFRASTRUCTURE ONLINE</text>
 </g>
 
 <!-- LEFT COLUMN -->
-<g transform="translate(70, 210)">
-  <text class="hero-title" x="0" y="0" font-size="78" fill="url(#titleGradLight)">K DESWANTH</text>
+<g transform="translate(70, 205)">
+  <text class="hero-title" x="0" y="0" font-size="80" fill="url(#titleGradLight)">K DESWANTH</text>
   <g transform="translate(0, 48)">
-    <text x="0" y="0" fill="#3d1e24" font-size="22" font-weight="600">Building AI Infrastructure for the Future 🤖</text>
+    <text x="0" y="0" fill="#3d1e24" font-size="22" font-weight="600">AI Infrastructure Architect &amp; Cybernetics Engineer 🤖</text>
   </g>
   <g transform="translate(0, 92)">
-    <rect width="550" height="52" rx="12" fill="#fff0ec" stroke="#d62828" stroke-width="1.5"/>
-    <text x="20" y="32" fill="#c1121f" font-size="15" font-style="italic">🤖 &quot;Building AI proxy gateways, computer vision &amp; enterprise apps.&quot;</text>
+    <rect width="550" height="54" rx="12" fill="#fff0ec" stroke="#d62828" stroke-width="1.5"/>
+    <text x="20" y="33" fill="#c1121f" font-size="15" font-style="italic">🤖 &quot;Building AI proxy gateways, computer vision &amp; enterprise platforms.&quot;</text>
   </g>
 </g>
 
@@ -77,28 +76,29 @@ text { font-family: 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
 </g>
 
 <!-- RIGHT COLUMN -->
-<g transform="translate(940, 110)">
-  <rect width="285" height="470" rx="16" fill="#fff5f2" stroke="url(#cardBorderLight)" stroke-width="2"/>
-  <path d="M940 126 a16 16 0 0 1 16 -16 h253 a16 16 0 0 1 16 16 v28 h-285 z" fill="#ffe3dc"/>
+<g transform="translate(940, 105)">
+  <rect width="290" height="480" rx="16" fill="#fff5f2" stroke="url(#cardBorderLight)" stroke-width="2"/>
+  <path d="M940 121 a16 16 0 0 1 16 -16 h258 a16 16 0 0 1 16 16 v28 h-290 z" fill="#ffe3dc"/>
   <circle cx="18" cy="20" r="5.5" fill="#d62828"/>
   <circle cx="34" cy="20" r="5.5" fill="#f77f00"/>
   <circle cx="50" cy="20" r="5.5" fill="#fcbf49"/>
-  <text x="142" y="24" fill="#80564e" font-size="11" text-anchor="middle">deswanth_core.ts</text>
-  <g transform="translate(16, 62)">
-    <text x="0" y="20" fill="#d62828" font-size="12">&gt; const deswanth = {</text>
-    <text x="14" y="45" fill="#f77f00" font-size="12">name: <tspan fill="#780000">&quot;k Deswanth&quot;</tspan>,</text>
-    <text x="14" y="70" fill="#f77f00" font-size="12">user: <tspan fill="#780000">&quot;deswanth12&quot;</tspan>,</text>
-    <text x="14" y="95" fill="#f77f00" font-size="12">role: <tspan fill="#780000">&quot;AI Infra &amp; FullStack 🤖&quot;</tspan>,</text>
-    <text x="14" y="120" fill="#f77f00" font-size="12">projects: [</text>
-    <text x="28" y="145" fill="#780000" font-size="11">&quot;EvalMesh (AI Proxy)&quot;,</text>
-    <text x="28" y="170" fill="#780000" font-size="11">&quot;JanAI (Welfare App)&quot;,</text>
-    <text x="28" y="195" fill="#780000" font-size="11">&quot;Sign Language AI&quot;,</text>
-    <text x="28" y="220" fill="#780000" font-size="11">&quot;Cyber Security Toolkit&quot;</text>
-    <text x="14" y="245" fill="#f77f00" font-size="12">],</text>
-    <text x="14" y="270" fill="#f77f00" font-size="12">contact: <tspan fill="#780000">&quot;deswanth12@gmail&quot;</tspan></text>
-    <text x="0" y="295" fill="#d62828" font-size="12">};</text>
-    <text x="0" y="335" fill="#c1121f" font-size="11">deswanth@infra:~ $ <tspan fill="#f77f00">deploy</tspan></text>
-    <text x="0" y="365" fill="#d62828" font-size="11">✔ 100% Mindblowing <tspan class="cur" fill="#f77f00">█</tspan></text>
+  <text x="145" y="24" fill="#80564e" font-size="11" text-anchor="middle">deswanth_telemetry.ts</text>
+  <g transform="translate(16, 60)">
+    <text x="0" y="18" fill="#d62828" font-size="12">&gt; const deswanth = {</text>
+    <text x="14" y="40" fill="#f77f00" font-size="11">engineer: <tspan fill="#780000">&quot;k Deswanth&quot;</tspan>,</text>
+    <text x="14" y="62" fill="#f77f00" font-size="11">handle: <tspan fill="#780000">&quot;deswanth12&quot;</tspan>,</text>
+    <text x="14" y="84" fill="#f77f00" font-size="11">role: <tspan fill="#780000">&quot;AI Infra Developer 🤖&quot;</tspan>,</text>
+    <text x="14" y="106" fill="#f77f00" font-size="11">flagships: [</text>
+    <text x="28" y="128" fill="#780000" font-size="11">&quot;EvalMesh (AI Proxy Gateway)&quot;,</text>
+    <text x="28" y="150" fill="#780000" font-size="11">&quot;JanAI (GovWelfare Platform)&quot;,</text>
+    <text x="28" y="172" fill="#780000" font-size="11">&quot;Sign Language AI (MediaPipe)&quot;,</text>
+    <text x="28" y="194" fill="#780000" font-size="11">&quot;Cyber Security Toolkit&quot;</text>
+    <text x="14" y="216" fill="#f77f00" font-size="11">],</text>
+    <text x="14" y="238" fill="#f77f00" font-size="11">stack: <tspan fill="#780000">&quot;Python, TS, React, Flask&quot;</tspan>,</text>
+    <text x="14" y="260" fill="#f77f00" font-size="11">status: <tspan fill="#780000">&quot;Scaling AI Proxy Infra&quot;</tspan></text>
+    <text x="0" y="282" fill="#d62828" font-size="12">};</text>
+    <text x="0" y="322" fill="#c1121f" font-size="11">deswanth@infra:~ $ <tspan fill="#f77f00">evalmesh --deploy</tspan></text>
+    <text x="0" y="348" fill="#d62828" font-size="11">✔ 5ms Semantic Cache Active <tspan class="cur" fill="#f77f00">█</tspan></text>
   </g>
 </g>
 </svg>
