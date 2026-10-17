@@ -1,267 +1,303 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="K Deswanth — Software Developer">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="K Deswanth — Principal Software Developer &amp; Open Source Hunter">
 <title>K Deswanth — Software Developer | Python, Flutter &amp; Open Source</title>
 <defs>
 <style type="text/css"><![CDATA[
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap');
 text { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif; }
 .code-font { font-family: 'Fira Code', Consolas, monospace; }
-.title-font { font-family: 'Outfit', sans-serif; font-weight: 900; letter-spacing: -1px; }
+.title-font { font-family: 'Outfit', sans-serif; font-weight: 900; letter-spacing: -1.5px; }
 
-@keyframes floatSoft { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
-@keyframes pulseGlowLight { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; filter: drop-shadow(0 0 12px rgba(224, 122, 95, 0.5)); } }
-@keyframes twinkleStar { 0%, 100% { opacity: 0.3; transform: scale(0.8); } 50% { opacity: 1; transform: scale(1.2); } }
+@keyframes floatHaptic { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+@keyframes pulseAuraLight { 0%, 100% { opacity: 0.35; filter: drop-shadow(0 0 16px rgba(224, 122, 95, 0.3)); } 50% { opacity: 0.7; filter: drop-shadow(0 0 24px rgba(244, 162, 97, 0.45)); } }
+@keyframes twinkleSoft { 0%, 100% { opacity: 0.25; transform: scale(0.85); } 50% { opacity: 0.95; transform: scale(1.15); } }
 @keyframes cursorBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-@keyframes hlShine { 0% { transform: translateX(-300px) skewX(-20deg); } 40%, 100% { transform: translateX(380px) skewX(-20deg); } }
-@keyframes runeGlow { 0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 6px rgba(230, 57, 70, 0.7)); } 50% { opacity: 1; filter: drop-shadow(0 0 14px rgba(255, 209, 102, 0.9)); } }
+@keyframes holoSheen { 0% { transform: translateX(-320px) skewX(-22deg); } 42%, 100% { transform: translateX(400px) skewX(-22deg); } }
+@keyframes crestGlowLight { 0%, 100% { filter: drop-shadow(0 0 6px rgba(224, 122, 95, 0.7)); } 50% { filter: drop-shadow(0 0 12px rgba(244, 162, 97, 0.85)); } }
 
-.float-card { animation: floatSoft 5s ease-in-out infinite; }
-.star-twinkle { transform-box: fill-box; transform-origin: center; animation: twinkleStar 3.2s ease-in-out infinite; }
-.glow-ring { animation: pulseGlowLight 4s ease-in-out infinite; }
-.cur { animation: cursorBlink 0.9s step-end infinite; }
-.tag-pill { transition: transform 0.2s ease; }
-.tag-pill:hover { transform: scale(1.05); }
-.hl-shine { animation: hlShine 5s ease-in-out infinite; }
-.rune-glow { animation: runeGlow 3.5s ease-in-out infinite; }
+.float-card { animation: floatHaptic 5.5s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
+.star-twinkle { transform-box: fill-box; transform-origin: center; animation: twinkleSoft 3.5s ease-in-out infinite; }
+.aura-pulse { animation: pulseAuraLight 4.5s ease-in-out infinite; }
+.cur { animation: cursorBlink 0.85s step-end infinite; }
+.crest-pulse { animation: crestGlowLight 3.6s ease-in-out infinite; }
+.holo-sweep { animation: holoSheen 5.2s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
+.interactive-pill { transition: transform 0.25s cubic-bezier(0.32, 0.72, 0, 1); }
+.interactive-pill:hover { transform: translateY(-2px); }
 ]]></style>
 
+<!-- Canvas Gradients (Warm Editorial Luxury Paper) -->
 <linearGradient id="canvasBgLight" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#fff9f6"/>
-  <stop offset="50%" stop-color="#fdf4ee"/>
-  <stop offset="100%" stop-color="#f8ece4"/>
+  <stop offset="0%" stop-color="#fff9f5"/>
+  <stop offset="50%" stop-color="#fcf2ec"/>
+  <stop offset="100%" stop-color="#f8e8de"/>
 </linearGradient>
 
-<linearGradient id="cardBorderLight" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#e07a5f" stop-opacity="0.5"/>
+<linearGradient id="outerBezelLight" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#e07a5f" stop-opacity="0.45"/>
   <stop offset="50%" stop-color="#f4a261" stop-opacity="0.3"/>
   <stop offset="100%" stop-color="#e76f51" stop-opacity="0.2"/>
 </linearGradient>
 
-<linearGradient id="titleGradLight" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%" stop-color="#2b1b22"/>
-  <stop offset="60%" stop-color="#4a2831"/>
-  <stop offset="100%" stop-color="#d97768"/>
+<linearGradient id="innerCoreLightStroke" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2"/>
 </linearGradient>
 
-<radialGradient id="ambientGlowLight1" cx="30%" cy="40%" r="50%">
-  <stop offset="0%" stop-color="#f4a261" stop-opacity="0.16"/>
+<linearGradient id="heroTitleGradLight" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#2a1820"/>
+  <stop offset="55%" stop-color="#4e2632"/>
+  <stop offset="100%" stop-color="#c45b40"/>
+</linearGradient>
+
+<!-- Ambient Luminescence (Warm Peach/Coral) -->
+<radialGradient id="meshLightCoral" cx="20%" cy="30%" r="55%">
+  <stop offset="0%" stop-color="#f4a261" stop-opacity="0.18"/>
   <stop offset="100%" stop-color="#f4a261" stop-opacity="0"/>
 </radialGradient>
 
-<radialGradient id="ambientGlowLight2" cx="75%" cy="50%" r="50%">
-  <stop offset="0%" stop-color="#e07a5f" stop-opacity="0.14"/>
+<radialGradient id="meshLightRose" cx="70%" cy="40%" r="60%">
+  <stop offset="0%" stop-color="#e07a5f" stop-opacity="0.16"/>
   <stop offset="100%" stop-color="#e07a5f" stop-opacity="0"/>
 </radialGradient>
 
-<!-- Hunter License Gradients (Reverse Stealth Edition for Light Mode) -->
-<linearGradient id="hlCardBgLight" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#24111d"/>
-  <stop offset="40%" stop-color="#341326"/>
-  <stop offset="80%" stop-color="#200d1a"/>
-  <stop offset="100%" stop-color="#180713"/>
+<!-- Stealth Card Materials on Light Background -->
+<linearGradient id="hlCardBodyStealth" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#220f1c"/>
+  <stop offset="35%" stop-color="#321327"/>
+  <stop offset="70%" stop-color="#1e0b18"/>
+  <stop offset="100%" stop-color="#140610"/>
 </linearGradient>
 
-<linearGradient id="hlBorderGradLight" x1="0" y1="0" x2="1" y2="1">
+<linearGradient id="hlCardBezelStealth" x1="0" y1="0" x2="1" y2="1">
   <stop offset="0%" stop-color="#ffd166"/>
   <stop offset="35%" stop-color="#e07a5f"/>
   <stop offset="70%" stop-color="#e63946"/>
   <stop offset="100%" stop-color="#ffd166"/>
 </linearGradient>
 
-<linearGradient id="hlSashGradLight" x1="0" y1="0" x2="1" y2="1">
+<linearGradient id="hlDiagonalSashStealth" x1="0" y1="0" x2="1" y2="1">
   <stop offset="0%" stop-color="#e63946" stop-opacity="0.45"/>
   <stop offset="100%" stop-color="#2a0d1f" stop-opacity="0.05"/>
 </linearGradient>
 
 <linearGradient id="hlChipGoldLight" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#ffe066"/>
-  <stop offset="45%" stop-color="#d4af37"/>
-  <stop offset="100%" stop-color="#8c5b08"/>
+  <stop offset="0%" stop-color="#fff275"/>
+  <stop offset="35%" stop-color="#ffd700"/>
+  <stop offset="75%" stop-color="#c69214"/>
+  <stop offset="100%" stop-color="#805b07"/>
 </linearGradient>
 
-<linearGradient id="hlHoloShineLight" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="hlFoilSweepLight" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-  <stop offset="42%" stop-color="#ffffff" stop-opacity="0.06"/>
-  <stop offset="50%" stop-color="#ffd166" stop-opacity="0.22"/>
-  <stop offset="58%" stop-color="#ff3366" stop-opacity="0.12"/>
+  <stop offset="40%" stop-color="#ffffff" stop-opacity="0.06"/>
+  <stop offset="50%" stop-color="#ffd166" stop-opacity="0.25"/>
+  <stop offset="60%" stop-color="#ff3366" stop-opacity="0.14"/>
   <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
 </linearGradient>
 
-<radialGradient id="hlAuraLight" cx="50%" cy="50%" r="50%">
-  <stop offset="0%" stop-color="#e07a5f" stop-opacity="0.25"/>
-  <stop offset="60%" stop-color="#ffd166" stop-opacity="0.1"/>
-  <stop offset="100%" stop-color="#e07a5f" stop-opacity="0"/>
-</radialGradient>
-
-<filter id="hlCardShadowLight" x="-20%" y="-20%" width="140%" height="140%">
-  <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#b85d19" flood-opacity="0.25"/>
+<filter id="cardVolumetricShadowLight" x="-25%" y="-25%" width="150%" height="150%">
+  <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#a44c32" flood-opacity="0.28"/>
+  <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#200a12" flood-opacity="0.2"/>
 </filter>
 
 <clipPath id="hlCardClipLight">
-  <rect x="548" y="118" width="272" height="176" rx="14"/>
+  <rect x="546" y="116" width="276" height="178" rx="14"/>
 </clipPath>
+
+<!-- Micro Dot Grid Light -->
+<pattern id="microGridLight" width="20" height="20" patternUnits="userSpaceOnUse">
+  <circle cx="2" cy="2" r="0.8" fill="#e07a5f" fill-opacity="0.07"/>
+</pattern>
 </defs>
 
-<!-- Outer Card Frame -->
-<rect width="1200" height="420" rx="22" fill="url(#canvasBgLight)"/>
-<rect width="1196" height="416" x="2" y="2" rx="21" fill="none" stroke="url(#cardBorderLight)" stroke-width="1.5"/>
+<!-- LAYER 0: Canvas Shell (Double-Bezel Architecture) -->
+<rect width="1200" height="420" rx="24" fill="url(#canvasBgLight)"/>
+<rect width="1200" height="420" rx="24" fill="url(#microGridLight)"/>
+<rect width="1196" height="416" x="2" y="2" rx="22" fill="none" stroke="url(#outerBezelLight)" stroke-width="1.6"/>
+<rect width="1190" height="410" x="5" y="5" rx="19" fill="none" stroke="url(#innerCoreLightStroke)" stroke-width="1.2"/>
 
-<!-- Ambient Warm Lighting -->
-<rect width="1200" height="420" rx="22" fill="url(#ambientGlowLight1)"/>
-<rect width="1200" height="420" rx="22" fill="url(#ambientGlowLight2)"/>
+<!-- LAYER 1: Ambient Luminescence -->
+<rect width="1200" height="420" rx="24" fill="url(#meshLightCoral)"/>
+<rect width="1200" height="420" rx="24" fill="url(#meshLightRose)"/>
 
-<!-- Twinkling Star Accents -->
-<g class="star-twinkle" style="animation-delay: 0.2s;"><text x="90" y="80" fill="#e07a5f" font-size="16">✦</text></g>
-<g class="star-twinkle" style="animation-delay: 1.5s;"><text x="460" y="70" fill="#f4a261" font-size="13">✧</text></g>
-<g class="star-twinkle" style="animation-delay: 2.3s;"><text x="610" y="370" fill="#d97768" font-size="14">✦</text></g>
-<g class="star-twinkle" style="animation-delay: 0.8s;"><text x="1140" y="75" fill="#e07a5f" font-size="16">✧</text></g>
-<g class="star-twinkle" style="animation-delay: 1.9s;"><text x="1120" y="380" fill="#f4a261" font-size="15">✦</text></g>
+<!-- LAYER 2: Celestial Micro-Accents -->
+<g class="star-twinkle" style="animation-delay: 0.1s;"><text x="88" y="76" fill="#e07a5f" font-size="15">✦</text></g>
+<g class="star-twinkle" style="animation-delay: 1.4s;"><text x="450" y="68" fill="#f4a261" font-size="12">✧</text></g>
+<g class="star-twinkle" style="animation-delay: 2.2s;"><text x="608" y="374" fill="#c45b40" font-size="14">✦</text></g>
+<g class="star-twinkle" style="animation-delay: 0.7s;"><text x="1144" y="74" fill="#e07a5f" font-size="15">✧</text></g>
+<g class="star-twinkle" style="animation-delay: 1.8s;"><text x="1118" y="382" fill="#f4a261" font-size="14">✦</text></g>
 
-<!-- LEFT COLUMN: Typography &amp; Identity -->
+<!-- ========================================================= -->
+<!-- LEFT COLUMN: Identity &amp; Editorial Typography               -->
+<!-- ========================================================= -->
 <g transform="translate(64, 0)">
-  <!-- Cute Subtitle Tag -->
-  <g transform="translate(0, 72)">
-    <rect width="250" height="30" rx="15" fill="#fbe8e1" stroke="#e07a5f" stroke-width="1" stroke-opacity="0.5"/>
-    <text x="125" y="19" fill="#c45b40" font-size="11.5" font-weight="600" text-anchor="middle" letter-spacing="1">⋆｡°✩ COZY DEVELOPER STUDIO</text>
+  <!-- Micro Eyebrow Tag (Double-Bezel Architecture) -->
+  <g transform="translate(0, 68)">
+    <rect width="268" height="28" rx="14" fill="#fbe8e1" stroke="#e07a5f" stroke-width="1" stroke-opacity="0.5"/>
+    <rect width="264" height="24" x="2" y="2" rx="12" fill="#fff5f0" stroke="url(#innerCoreLightStroke)" stroke-width="0.8"/>
+    <circle cx="15" cy="14" r="3.5" fill="#c45b40"/>
+    <text class="code-font" x="25" y="18" fill="#c45b40" font-size="10" font-weight="700" letter-spacing="1.5">HUNTER 2026 // DEV STUDIO</text>
   </g>
 
   <!-- Big Hero Name -->
-  <text class="title-font" x="0" y="165" font-size="64" fill="url(#titleGradLight)">K DESWANTH</text>
+  <text class="title-font" x="0" y="160" font-size="62" fill="url(#heroTitleGradLight)">K DESWANTH</text>
 
-  <!-- Role Subtitle -->
-  <text x="2" y="202" fill="#c45b40" font-size="19" font-weight="600" letter-spacing="0.3">Software Developer • Python, Flutter &amp; Open Source</text>
-
-  <!-- Status / Bio Details -->
-  <g transform="translate(0, 230)">
-    <text class="code-font" x="2" y="18" fill="#6d545b" font-size="13">☕ Powered by Chai &amp; Curiosity  •  📍 Tirupati, India 🇮🇳</text>
-    <text class="code-font" x="2" y="44" fill="#8d6e77" font-size="12.5">&quot;Code with kindness, test thoroughly, keep it clean (˶ᵔ ᵕ ᵔ˶)&quot;</text>
+  <!-- Role Subtitle with Micro Delimiters -->
+  <g transform="translate(2, 196)">
+    <text x="0" y="0" fill="#c45b40" font-size="18.5" font-weight="700" letter-spacing="0.2">Software Developer</text>
+    <text class="code-font" x="175" y="-1" fill="#e07a5f" font-size="14" font-weight="700">·</text>
+    <text x="190" y="0" fill="#8d5b4c" font-size="17" font-weight="600">Python, Flutter &amp; Open Source</text>
   </g>
 
-  <!-- Tech Tags / Badges -->
-  <g transform="translate(0, 318)">
-    <g class="tag-pill" transform="translate(0, 0)">
-      <rect width="145" height="34" rx="17" fill="#fbe8e1" stroke="#e07a5f" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text class="code-font" x="72" y="21" fill="#c45b40" font-size="11.5" font-weight="600" text-anchor="middle">✦ DevTools (AST)</text>
+  <!-- Editorial Bio Block with Accent Bar -->
+  <g transform="translate(0, 224)">
+    <line x1="2" y1="6" x2="2" y2="44" stroke="#c45b40" stroke-width="2.5" stroke-linecap="round"/>
+    <text class="code-font" x="16" y="18" fill="#6d545b" font-size="12.5" font-weight="500">☕ Powered by Chai &amp; Curiosity  //  📍 Tirupati, India 🇮🇳</text>
+    <text class="code-font" x="16" y="38" fill="#8d6e77" font-size="12">&quot;Code with kindness, test thoroughly, keep it clean (˶ᵔ ᵕ ᵔ˶)&quot;</text>
+  </g>
+
+  <!-- Interactive Double-Bezel Tech Pills -->
+  <g transform="translate(0, 314)">
+    <g class="interactive-pill" transform="translate(0, 0)">
+      <rect width="148" height="36" rx="18" fill="#fbe8e1" stroke="#e07a5f" stroke-width="1.2" stroke-opacity="0.6"/>
+      <rect width="144" height="32" x="2" y="2" rx="16" fill="#ffffff" stroke="url(#innerCoreLightStroke)" stroke-width="0.8"/>
+      <circle cx="18" cy="18" r="8" fill="#e07a5f" fill-opacity="0.18"/>
+      <text class="code-font" x="18" y="21.5" fill="#c45b40" font-size="10" font-weight="700" text-anchor="middle">⬡</text>
+      <text class="code-font" x="84" y="22" fill="#c45b40" font-size="11" font-weight="600" text-anchor="middle">DevTools (AST)</text>
     </g>
-    <g class="tag-pill" transform="translate(155, 0)">
-      <rect width="165" height="34" rx="17" fill="#fbe8e1" stroke="#f4a261" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text class="code-font" x="82" y="21" fill="#b85d19" font-size="11.5" font-weight="600" text-anchor="middle">✦ Privacy-First Apps</text>
+
+    <g class="interactive-pill" transform="translate(158, 0)">
+      <rect width="168" height="36" rx="18" fill="#fbe8e1" stroke="#f4a261" stroke-width="1.2" stroke-opacity="0.6"/>
+      <rect width="164" height="32" x="2" y="2" rx="16" fill="#ffffff" stroke="url(#innerCoreLightStroke)" stroke-width="0.8"/>
+      <circle cx="18" cy="18" r="8" fill="#f4a261" fill-opacity="0.2"/>
+      <text class="code-font" x="18" y="21.5" fill="#b85d19" font-size="10" font-weight="700" text-anchor="middle">🛡</text>
+      <text class="code-font" x="90" y="22" fill="#b85d19" font-size="11" font-weight="600" text-anchor="middle">Privacy-First Apps</text>
     </g>
-    <g class="tag-pill" transform="translate(330, 0)">
-      <rect width="145" height="34" rx="17" fill="#fbe8e1" stroke="#d97768" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text class="code-font" x="72" y="21" fill="#c45b40" font-size="11.5" font-weight="600" text-anchor="middle">✦ MediaPipe 3D</text>
+
+    <g class="interactive-pill" transform="translate(336, 0)">
+      <rect width="148" height="36" rx="18" fill="#fbe8e1" stroke="#d97768" stroke-width="1.2" stroke-opacity="0.6"/>
+      <rect width="144" height="32" x="2" y="2" rx="16" fill="#ffffff" stroke="url(#innerCoreLightStroke)" stroke-width="0.8"/>
+      <circle cx="18" cy="18" r="8" fill="#d97768" fill-opacity="0.2"/>
+      <text class="code-font" x="18" y="21.5" fill="#c45b40" font-size="10" font-weight="700" text-anchor="middle">✦</text>
+      <text class="code-font" x="84" y="22" fill="#c45b40" font-size="11" font-weight="600" text-anchor="middle">MediaPipe 3D</text>
     </g>
   </g>
 </g>
 
-<!-- CENTER: Hunter License Card (Reverse Theme) with Floating Animation -->
+<!-- ========================================================= -->
+<!-- CENTER COLUMN: Hunter License (Reverse Stealth Masterpiece)-->
+<!-- ========================================================= -->
 <g class="float-card">
-  <!-- Warm Aura Glow Behind Card -->
-  <ellipse cx="684" cy="206" rx="146" ry="96" fill="url(#hlAuraLight)" filter="drop-shadow(0 0 16px rgba(224, 122, 95, 0.35))"/>
+  <!-- Volumetric Underglow -->
+  <ellipse class="aura-pulse" cx="684" cy="205" rx="144" ry="94" fill="#e07a5f" opacity="0.28" filter="blur(16px)"/>
 
-  <!-- Card Frame &amp; Contents -->
-  <g filter="url(#hlCardShadowLight)">
-    <!-- Base Card Shell -->
-    <rect x="548" y="118" width="272" height="176" rx="14" fill="url(#hlCardBgLight)" stroke="url(#hlBorderGradLight)" stroke-width="1.8"/>
+  <!-- Physical Card Body (Double-Bezel Architecture) -->
+  <g filter="url(#cardVolumetricShadowLight)">
+    <!-- Outer Machined Bezel -->
+    <rect x="546" y="116" width="276" height="178" rx="14" fill="url(#hlCardBodyStealth)" stroke="url(#hlCardBezelStealth)" stroke-width="1.8"/>
 
-    <!-- Inset Hairline Accent -->
-    <rect x="551" y="121" width="266" height="170" rx="11" fill="none" stroke="#ffd166" stroke-width="0.6" stroke-opacity="0.4"/>
+    <!-- Concentric Inner Highlight -->
+    <rect x="549" y="119" width="270" height="172" rx="11" fill="none" stroke="#ffd166" stroke-width="0.8" stroke-opacity="0.35"/>
 
-    <!-- Clipped Decorative Elements -->
+    <!-- Clipped Internal Texture &amp; Holographic Elements -->
     <g clip-path="url(#hlCardClipLight)">
-      <!-- Diagonal Reverse Sash -->
-      <path d="M 548,118 L 736,118 L 642,294 L 548,294 Z" fill="url(#hlSashGradLight)"/>
+      <path d="M 546,116 L 738,116 L 642,294 L 546,294 Z" fill="url(#hlDiagonalSashStealth)"/>
 
-      <!-- Delicate Pinstripe Details -->
-      <line x1="550" y1="138" x2="720" y2="138" stroke="#ff3366" stroke-width="0.5" stroke-opacity="0.25"/>
-      <line x1="550" y1="272" x2="710" y2="272" stroke="#ffd166" stroke-width="0.5" stroke-opacity="0.2"/>
+      <line x1="546" y1="138" x2="720" y2="138" stroke="#ff3366" stroke-width="0.6" stroke-opacity="0.3"/>
+      <line x1="546" y1="270" x2="710" y2="270" stroke="#ffd166" stroke-width="0.6" stroke-opacity="0.25"/>
 
-      <!-- Watermark Hunter Crest in Card Background -->
-      <g transform="translate(742, 206) scale(1.6)" opacity="0.08">
+      <g transform="translate(744, 205) scale(1.65)" opacity="0.08">
         <path d="M 0,-24 C -14,-14 -14,14 0,24 C -6,14 -6,-14 0,-24 Z" fill="#ffffff"/>
         <path d="M 18,-24 C 32,-14 32,14 18,24 C 24,14 24,-14 18,-24 Z" fill="#ffffff"/>
       </g>
     </g>
 
-    <!-- Top Card Header -->
-    <text class="code-font" x="564" y="136" fill="#ffd166" font-size="8" font-weight="700" letter-spacing="2">HUNTER ASSOCIATION</text>
+    <!-- Top Card Micro-Header -->
+    <text class="code-font" x="564" y="135" fill="#ffd166" font-size="8" font-weight="700" letter-spacing="2">HUNTER ASSOCIATION</text>
 
-    <!-- Contactless Wave Icon -->
-    <g transform="translate(794, 131)" stroke="#ffd166" stroke-width="1.2" fill="none" stroke-linecap="round">
+    <!-- Contactless Wave Icon (NFC) -->
+    <g transform="translate(794, 130)" stroke="#ffd166" stroke-width="1.2" fill="none" stroke-linecap="round">
       <path d="M 0,0 C 2,2 2,6 0,8" opacity="0.45"/>
       <path d="M 3,-2 C 6,1 6,9 3,12" opacity="0.75"/>
       <path d="M 6,-4 C 10,0 10,12 6,16"/>
     </g>
 
-    <!-- Gold EMV Smart Microchip -->
-    <g transform="translate(564, 145)">
-      <rect width="36" height="26" rx="4" fill="url(#hlChipGoldLight)" stroke="#b38617" stroke-width="0.8"/>
-      <path d="M 0,9 h 12 v 8 h -12 M 36,9 h -12 v 8 h 12 M 18,0 v 7 M 18,26 v -7" stroke="#664400" stroke-width="1" fill="none" opacity="0.85"/>
-      <circle cx="18" cy="13" r="2" fill="#664400" opacity="0.85"/>
+    <!-- Precision EMV Gold Smart Microchip (Double-Bezel Nested) -->
+    <g transform="translate(564, 144)">
+      <rect width="36" height="26" rx="4" fill="url(#hlChipGoldLight)" stroke="#8c5b07" stroke-width="0.8"/>
+      <rect width="34" height="24" x="1" y="1" rx="3" fill="none" stroke="#fff275" stroke-width="0.5" stroke-opacity="0.6"/>
+      <path d="M 0,9 h 12 v 8 h -12 M 36,9 h -12 v 8 h 12 M 18,0 v 7 M 18,26 v -7" stroke="#5c3f03" stroke-width="1.1" fill="none" opacity="0.85"/>
+      <circle cx="18" cy="13" r="2" fill="#5c3f03" opacity="0.85"/>
     </g>
 
-    <!-- Header Text Beside Chip -->
-    <text x="608" y="157" fill="#ffffff" font-size="13" font-weight="900" letter-spacing="1.2">HUNTER LICENSE</text>
-    <text class="code-font" x="608" y="169" fill="#ff9f1c" font-size="7.5" font-weight="700" letter-spacing="1">REVERSE EDITION • ハンター</text>
+    <!-- License Title Beside Chip -->
+    <text x="608" y="156" fill="#ffffff" font-size="13" font-weight="900" letter-spacing="1.2">HUNTER LICENSE</text>
+    <text class="code-font" x="608" y="168" fill="#ff9f1c" font-size="7.5" font-weight="700" letter-spacing="1">REVERSE EDITION • ハンター</text>
 
-    <!-- Iconic Hunter Crest Symbol (Right Center) with Glow -->
-    <g class="rune-glow" transform="translate(760, 206)">
-      <!-- Outer Orbit Ring -->
-      <circle cx="9" cy="0" r="32" fill="none" stroke="#e63946" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.45"/>
-      <!-- Left Crescent Arc -->
-      <path d="M 0,-20 C -12,-12 -12,12 0,20 C -5,12 -5,-12 0,-20 Z" fill="#e63946" stroke="#ffd166" stroke-width="1"/>
-      <!-- Right Crescent Arc -->
-      <path d="M 18,-20 C 30,-12 30,12 18,20 C 23,12 23,-12 18,-20 Z" fill="#e63946" stroke="#ffd166" stroke-width="1"/>
-      <!-- Center Diamond &amp; Cross Core -->
+    <!-- Authentic Hunter Emblem Symbol (Right Center) -->
+    <g class="crest-pulse" transform="translate(760, 205)">
+      <circle cx="9" cy="0" r="32" fill="none" stroke="#e63946" stroke-width="1.4" stroke-dasharray="4,3" opacity="0.5"/>
+      <path d="M 0,-20 C -12,-12 -12,12 0,20 C -5,12 -5,-12 0,-20 Z" fill="#e63946" stroke="#ffd166" stroke-width="1.1"/>
+      <path d="M 18,-20 C 30,-12 30,12 18,20 C 23,12 23,-12 18,-20 Z" fill="#e63946" stroke="#ffd166" stroke-width="1.1"/>
       <polygon points="9,-10 13,0 9,10 5,0" fill="#ffd166" stroke="#ff9f1c" stroke-width="0.6"/>
       <circle cx="9" cy="0" r="2" fill="#ffffff"/>
       <line x1="2" y1="0" x2="16" y2="0" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round"/>
     </g>
 
-    <!-- Cardholder Info Section -->
-    <g transform="translate(564, 192)">
+    <!-- Cardholder Credentials Section -->
+    <g transform="translate(564, 191)">
       <text class="code-font" x="0" y="0" fill="#a88c95" font-size="7" font-weight="600" letter-spacing="1">CARDHOLDER NAME</text>
       <text x="0" y="15" fill="#ffffff" font-size="13.5" font-weight="900" letter-spacing="1.2">K. DESWANTH</text>
       <text x="0" y="29" fill="#fcd5ce" font-size="8.2" font-weight="600">SOFTWARE &amp; OPEN-SOURCE HUNTER</text>
 
-      <!-- Divider -->
-      <line x1="0" y1="38" x2="165" y2="38" stroke="#e63946" stroke-width="0.8" stroke-opacity="0.4"/>
+      <line x1="0" y1="38" x2="165" y2="38" stroke="#e63946" stroke-width="0.8" stroke-opacity="0.45"/>
 
-      <!-- License Serial &amp; Rank -->
       <text class="code-font" x="0" y="50" fill="#a88c95" font-size="6.5" font-weight="600" letter-spacing="0.8">LICENSE NO.</text>
       <text class="code-font" x="0" y="63" fill="#ffd166" font-size="8.8" font-weight="700" letter-spacing="1.5">№ 2026-1017-HXH-0012</text>
       <text class="code-font" x="0" y="77" fill="#ff9f1c" font-size="7.5" font-weight="700">★☆☆ SINGLE-STAR HUNTER</text>
     </g>
 
-    <!-- Holographic Sheen Sweep (Animated) -->
+    <!-- Animated Holographic Foil Sweep -->
     <g clip-path="url(#hlCardClipLight)">
-      <rect class="hl-shine" x="548" y="118" width="120" height="176" fill="url(#hlHoloShineLight)"/>
+      <rect class="holo-sweep" x="546" y="116" width="125" height="178" fill="url(#hlFoilSweepLight)"/>
     </g>
   </g>
 
-  <!-- Cute Capsule Badge Beneath Card -->
+  <!-- Nested Status Pill Beneath Card -->
   <g transform="translate(684, 318)">
-    <rect x="-95" y="-13" width="190" height="26" rx="13" fill="#24111d" stroke="#ffd166" stroke-width="1.2" stroke-opacity="0.6"/>
-    <text class="code-font" x="0" y="4" fill="#ffd166" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle">★ PRO HUNTER • VERIFIED ★</text>
+    <rect x="-96" y="-14" width="192" height="28" rx="14" fill="#24111d" stroke="#ffd166" stroke-width="1.2" stroke-opacity="0.6"/>
+    <rect x="-93" y="-11" width="186" height="22" rx="11" fill="#1b0a16" stroke="url(#innerCoreLightStroke)" stroke-width="0.8"/>
+    <circle cx="-76" cy="0" r="3" fill="#ffd166"/>
+    <text class="code-font" x="4" y="4" fill="#ffd166" font-size="9.5" font-weight="700" letter-spacing="1.2" text-anchor="middle">PRO HUNTER • VERIFIED</text>
   </g>
 </g>
 
-<!-- RIGHT: Frosted Code Window -->
+<!-- ========================================================= -->
+<!-- RIGHT COLUMN: Frosted Terminal Window (`deswanth.ts`)      -->
+<!-- ========================================================= -->
 <g transform="translate(830, 68)">
-  <rect width="320" height="284" rx="16" fill="#fff9f6" fill-opacity="0.9" stroke="url(#cardBorderLight)" stroke-width="1.2"/>
+  <!-- Outer Window Shell -->
+  <rect width="320" height="284" rx="18" fill="#ffffff" fill-opacity="0.95" stroke="url(#outerBezelLight)" stroke-width="1.4"/>
+  <rect width="316" height="280" x="2" y="2" rx="16" fill="none" stroke="url(#innerCoreLightStroke)" stroke-width="1"/>
 
-  <!-- Window Header -->
-  <rect width="320" height="36" rx="16" fill="#fbe8e1"/>
-  <rect width="320" height="18" y="18" fill="#fbe8e1"/>
+  <!-- Window Header Titlebar -->
+  <rect width="320" height="38" rx="18" fill="#fbe8e1"/>
+  <rect width="320" height="18" y="20" fill="#fbe8e1"/>
+  <line x1="0" y1="38" x2="320" y2="38" stroke="#000000" stroke-width="0.8" stroke-opacity="0.06"/>
 
-  <!-- Window Buttons (Pastel dots) -->
-  <circle cx="20" cy="18" r="5" fill="#e07a5f"/>
-  <circle cx="36" cy="18" r="5" fill="#f4a261"/>
-  <circle cx="52" cy="18" r="5" fill="#e76f51"/>
-  <text class="code-font" x="160" y="22" fill="#8d6e77" font-size="11" text-anchor="middle">deswanth.ts</text>
+  <!-- Window Controls -->
+  <circle cx="20" cy="19" r="5.5" fill="#e07a5f"/>
+  <circle cx="37" cy="19" r="5.5" fill="#f4a261"/>
+  <circle cx="54" cy="19" r="5.5" fill="#e76f51"/>
 
-  <!-- Code Lines -->
-  <g class="code-font" transform="translate(18, 62)">
-    <text x="0" y="0" fill="#c45b40" font-size="11.5">const <tspan fill="#2b1b22">developer</tspan> = {</text>
+  <!-- Active Tab Pill -->
+  <g transform="translate(100, 8)">
+    <rect width="120" height="22" rx="6" fill="#ffffff" stroke="url(#innerCoreLightStroke)" stroke-width="0.6"/>
+    <text class="code-font" x="60" y="15" fill="#c45b40" font-size="11" font-weight="600" text-anchor="middle">deswanth.ts</text>
+  </g>
+
+  <!-- Syntax-Highlighted Code Block -->
+  <g class="code-font" transform="translate(20, 64)">
+    <text x="0" y="0" fill="#c45b40" font-size="11.5" font-weight="600">const <tspan fill="#2b1b22">developer</tspan> = {</text>
     <text x="14" y="24" fill="#6d545b" font-size="11">name: <tspan fill="#b85d19">&quot;K Deswanth&quot;</tspan>,</text>
     <text x="14" y="46" fill="#6d545b" font-size="11">stack: [<tspan fill="#c45b40">&quot;Python&quot;</tspan>, <tspan fill="#c45b40">&quot;Flutter&quot;</tspan>, <tspan fill="#c45b40">&quot;React&quot;</tspan>],</text>
     <text x="14" y="68" fill="#6d545b" font-size="11">flagships: [</text>
@@ -270,12 +306,13 @@ text { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif; }
     <text x="28" y="130" fill="#b85d19" font-size="10.5">&quot;Cyber Security Toolkit&quot;</text>
     <text x="14" y="152" fill="#6d545b" font-size="11">],</text>
     <text x="14" y="174" fill="#6d545b" font-size="11">status: <tspan fill="#b85d19">&quot;shipping open source 📦&quot;</tspan></text>
-    <text x="0" y="196" fill="#c45b40" font-size="11.5">};</text>
+    <text x="0" y="196" fill="#c45b40" font-size="11.5" font-weight="600">};</text>
 
     <!-- Terminal Prompt Line -->
-    <g transform="translate(0, 224)">
-      <text x="0" y="0" fill="#8d6e77" font-size="10.5">&gt; ready to collaborate</text>
-      <rect class="cur" x="135" y="-10" width="7" height="13" fill="#e07a5f"/>
+    <g transform="translate(0, 222)">
+      <text x="0" y="0" fill="#c45b40" font-size="11" font-weight="600">&gt;</text>
+      <text x="14" y="0" fill="#8d6e77" font-size="10.5">ready to collaborate</text>
+      <rect class="cur" x="146" y="-10" width="7" height="13" fill="#e07a5f"/>
     </g>
   </g>
 </g>

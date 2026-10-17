@@ -2,9 +2,9 @@
 
 <!-- ✨ Dual-Theme Header Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=10">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=10">
-  <img src="./banner.svg?v=10" alt="Deswanth Banner" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=11">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=11">
+  <img src="./banner.svg?v=11" alt="Deswanth Banner" width="100%"/>
 </picture>
 
 <br/>
@@ -32,7 +32,7 @@
 ```
 
 <!-- 🪪 Hunter License Pass (Reverse Theme) -->
-<img src="./lanyard.svg?v=10" alt="k Deswanth Hunter License Badge" width="280"/>
+<img src="./lanyard.svg?v=11" alt="k Deswanth Hunter License Badge" width="280"/>
 
 </div>
 
@@ -100,19 +100,19 @@ motto: "Build practical software, test thoroughly, keep it clean (˶ᵔ ᵕ ᵔ�
 ## 📈 Activity & Commits
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=deswanth12&show_icons=true&hide_rank=true&include_all_commits=true&bg_color=180a0e&title_color=ffd166&text_color=c0a0a8&icon_color=ff9f1c&border_color=ff9f1c&border_radius=14&custom_title=K%20Deswanth's%20GitHub%20Stats" height="185" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=deswanth12&show_icons=true&hide_rank=true&include_all_commits=true&bg_color=120710&title_color=ffd166&text_color=fcd5ce&icon_color=ff9f1c&border_color=e63946&border_radius=16&custom_title=K%20Deswanth's%20GitHub%20Stats" height="185" alt="GitHub Stats"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deswanth12&layout=compact&bg_color=180a0e&title_color=ffd166&text_color=c0a0a8&border_color=e63946&border_radius=14" height="185" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deswanth12&layout=compact&bg_color=120710&title_color=ffd166&text_color=fcd5ce&border_color=ffd166&border_radius=16" height="185" alt="Top Languages"/>
 </p>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=deswanth12&theme=dark&hide_border=true&background=180a0e&ring=ffb5a7&fire=fcd5ce&currStreakLabel=f8edeb" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com?user=deswanth12&theme=dark&hide_border=false&border_radius=16&background=120710&border=e63946&ring=ffd166&fire=ff3366&currStreakLabel=fcd5ce&dates=a88c95" alt="GitHub Streak"/>
 
 <br/><br/>
 
 <!-- 📈 Contribution Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=deswanth12&bg_color=180a0e&color=ffb5a7&line=fcd5ce&point=f8edeb&area=true&area_color=fcd5ce&hide_border=true&custom_title=Commit%20Heartbeat%20🌸" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=deswanth12&bg_color=120710&color=ffd166&line=e63946&point=fcd5ce&area=true&area_color=e63946&hide_border=false&border_color=e63946&border_radius=16&custom_title=Commit%20Heartbeat%20🌸" width="95%"/>
 
 <br/><br/>
 

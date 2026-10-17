@@ -6,111 +6,115 @@
 text { font-family: 'Fira Code', Consolas, monospace; }
 .card-name { font-family: 'Outfit', sans-serif; font-weight: 900; }
 
-@keyframes settle { 0% { transform: rotate(0deg) translateY(-660px); } 18% { transform: rotate(0deg) translateY(0); } 30% { transform: rotate(14deg); } 46% { transform: rotate(-10deg); } 62% { transform: rotate(7deg); } 78% { transform: rotate(-4deg); } 92% { transform: rotate(2deg); } 100% { transform: rotate(0deg); } }
-@keyframes sway { 0%, 100% { transform: rotate(-3.5deg); } 50% { transform: rotate(3.5deg); } }
+@keyframes settlePhysics { 0% { transform: rotate(0deg) translateY(-660px); } 18% { transform: rotate(0deg) translateY(0); } 30% { transform: rotate(14deg); } 46% { transform: rotate(-10deg); } 62% { transform: rotate(7deg); } 78% { transform: rotate(-4deg); } 92% { transform: rotate(2deg); } 100% { transform: rotate(0deg); } }
+@keyframes swayPhysics { 0%, 100% { transform: rotate(-3.5deg); } 50% { transform: rotate(3.5deg); } }
 @keyframes cardWobble { 0%, 100% { transform: rotate(1.8deg); } 50% { transform: rotate(-1.8deg); } }
-@keyframes shine { 0% { transform: translateX(-340px) skewX(-18deg); } 55%, 100% { transform: translateX(420px) skewX(-18deg); } }
-@keyframes twinkle { 0%, 100% { opacity: 0; transform: scale(.4); } 50% { opacity: 1; transform: scale(1.2); } }
-@keyframes runePulse { 0%, 100% { opacity: 0.9; filter: drop-shadow(0 0 8px rgba(230, 57, 70, 0.8)); } 50% { opacity: 1; filter: drop-shadow(0 0 16px rgba(255, 209, 102, 0.9)); } }
+@keyframes sheenSweep { 0% { transform: translateX(-340px) skewX(-18deg); } 55%, 100% { transform: translateX(420px) skewX(-18deg); } }
+@keyframes runePulse { 0%, 100% { filter: drop-shadow(0 0 8px rgba(230, 57, 70, 0.8)); } 50% { filter: drop-shadow(0 0 16px rgba(255, 209, 102, 0.95)); } }
 
-.settle { transform-origin: 210px 6px; animation: settle 3.4s cubic-bezier(.34,1.1,.5,1) forwards; }
-.sway { transform-origin: 210px 6px; animation: sway 4.2s ease-in-out 3.4s infinite; }
+.settle { transform-origin: 210px 6px; animation: settlePhysics 3.4s cubic-bezier(0.34, 1.1, 0.5, 1) forwards; }
+.sway { transform-origin: 210px 6px; animation: swayPhysics 4.2s cubic-bezier(0.32, 0.72, 0, 1) 3.4s infinite; }
 .wob { transform-origin: 210px 300px; animation: cardWobble 4.2s ease-in-out 3.4s infinite; }
-.shine { animation: shine 4.5s ease-in-out 3.6s infinite; }
-.tw { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
-.rune-pulse { animation: runePulse 3s ease-in-out infinite; }
+.shine { animation: sheenSweep 4.8s cubic-bezier(0.16, 1, 0.3, 1) 3.6s infinite; }
+.rune-pulse { animation: runePulse 3.2s ease-in-out infinite; }
 ]]></style>
 
-<linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="strapGrad" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%" stop-color="#e63946"/>
   <stop offset="50%" stop-color="#ffd166"/>
   <stop offset="100%" stop-color="#e63946"/>
 </linearGradient>
 
-<linearGradient id="cardbg" x1="0" y1="0" x2="1" y2="1">
+<linearGradient id="cardBgLuxury" x1="0" y1="0" x2="1" y2="1">
   <stop offset="0%" stop-color="#1e0a16"/>
   <stop offset="50%" stop-color="#2a0d1f"/>
   <stop offset="100%" stop-color="#10040c"/>
 </linearGradient>
 
-<linearGradient id="cardborder" x1="0" y1="0" x2="1" y2="1">
+<linearGradient id="cardBezelRainbow" x1="0" y1="0" x2="1" y2="1">
   <stop offset="0%"><animate attributeName="stop-color" values="#ffd166;#e63946;#ff9f1c;#ffd166" dur="5s" repeatCount="indefinite"/></stop>
   <stop offset="100%"><animate attributeName="stop-color" values="#e63946;#ffd166;#ff3366;#e63946" dur="5s" repeatCount="indefinite"/></stop>
 </linearGradient>
 
-<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0%" stop-color="#ffd700"/>
+<linearGradient id="metalGrad" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#fff275"/>
   <stop offset="45%" stop-color="#d4af37"/>
-  <stop offset="55%" stop-color="#aa7c11"/>
+  <stop offset="60%" stop-color="#aa7c11"/>
   <stop offset="100%" stop-color="#ffd700"/>
 </linearGradient>
 
-<linearGradient id="shineg" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="shineGradient" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
   <stop offset="50%" stop-color="#fff" stop-opacity=".22"/>
   <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
 </linearGradient>
 
-<linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%"><animate attributeName="stop-color" values="#ffd166;#ff9f1c;#ffd166" dur="4s" repeatCount="indefinite"/></stop>
   <stop offset="100%"><animate attributeName="stop-color" values="#ff9f1c;#e63946;#ff9f1c" dur="4s" repeatCount="indefinite"/></stop>
 </linearGradient>
 
-<radialGradient id="lglow"><stop offset="0%" stop-color="#e63946" stop-opacity=".3"/><stop offset="100%" stop-color="#e63946" stop-opacity="0"/></radialGradient>
-<filter id="glow2"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity=".75"/></filter>
-<clipPath id="cardclip"><rect x="82" y="298" width="256" height="330" rx="20"/></clipPath>
+<radialGradient id="auraGlow"><stop offset="0%" stop-color="#e63946" stop-opacity=".32"/><stop offset="100%" stop-color="#e63946" stop-opacity="0"/></radialGradient>
+<filter id="softGlow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="cardShadowFilter" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity=".75"/></filter>
+<clipPath id="passClip"><rect x="82" y="298" width="256" height="330" rx="20"/></clipPath>
 </defs>
 
-<circle cx="210" cy="440" r="230" fill="url(#lglow)"><animate attributeName="r" values="230;255;230" dur="4.5s" repeatCount="indefinite"/></circle>
+<circle cx="210" cy="440" r="230" fill="url(#auraGlow)"><animate attributeName="r" values="230;255;230" dur="4.5s" repeatCount="indefinite"/></circle>
 
 <g class="settle">
 <g class="sway">
 
-  <!-- Lanyard Straps -->
-  <path d="M148 -10 L198 250 L204 250 L156 -10 Z" fill="url(#strapg)"/>
-  <path d="M272 -10 L222 250 L216 250 L264 -10 Z" fill="url(#strapg)"/>
+  <!-- Woven Lanyard Straps with Stitching -->
+  <path d="M148 -10 L198 250 L204 250 L156 -10 Z" fill="url(#strapGrad)"/>
+  <path d="M272 -10 L222 250 L216 250 L264 -10 Z" fill="url(#strapGrad)"/>
+  <!-- Stitch Lines -->
+  <line x1="151" y1="-10" x2="201" y2="250" stroke="#ffd166" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="269" y1="-10" x2="219" y2="250" stroke="#ffd166" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.6"/>
 
-  <!-- Gold Metal Clamp -->
+  <!-- Polished Brass Carabiner Clamp -->
   <g transform="translate(192, 235)">
-    <rect x="0" y="0" width="36" height="20" rx="4" fill="url(#metal)"/>
+    <rect x="0" y="0" width="36" height="20" rx="4" fill="url(#metalGrad)"/>
     <circle cx="18" cy="10" r="5" fill="#14070a"/>
-    <path d="M12 20 L12 36 Q12 44 18 44 Q24 44 24 36 L24 20 Z" fill="url(#metal)"/>
-    <rect x="8" y="42" width="20" height="18" rx="4" fill="url(#metal)"/>
+    <path d="M12 20 L12 36 Q12 44 18 44 Q24 44 24 36 L24 20 Z" fill="url(#metalGrad)"/>
+    <rect x="8" y="42" width="20" height="18" rx="4" fill="url(#metalGrad)"/>
   </g>
 
-  <!-- Wobbling Card Group -->
-  <g class="wob" filter="url(#cardShadow)">
-    <rect x="80" y="296" width="260" height="334" rx="22" fill="url(#cardborder)"/>
-    <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardbg)"/>
-    <rect x="180" y="306" width="60" height="12" rx="6" fill="#0d0406" stroke="url(#metal)" stroke-width="1.5"/>
+  <!-- Double-Bezel Wobbling Card Body -->
+  <g class="wob" filter="url(#cardShadowFilter)">
+    <!-- Outer Bezel -->
+    <rect x="80" y="296" width="260" height="334" rx="22" fill="url(#cardBezelRainbow)"/>
+    <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardBgLuxury)"/>
+    <!-- Inset Hairline -->
+    <rect x="85" y="301" width="250" height="324" rx="17" fill="none" stroke="#ffb5a7" stroke-width="0.7" stroke-opacity="0.3"/>
+
+    <!-- Gold Pass Clip Hole -->
+    <rect x="180" y="306" width="60" height="12" rx="6" fill="#0d0406" stroke="url(#metalGrad)" stroke-width="1.5"/>
 
     <!-- Header Banner -->
     <path d="M82 328 h256 v45 h-256 z" fill="#2d0f20"/>
-    <text x="210" y="356" fill="#ffd166" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle" filter="url(#glow2)">★ HUNTER ASSOCIATION ★</text>
+    <text x="210" y="356" fill="#ffd166" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle" filter="url(#softGlow)">★ HUNTER ASSOCIATION ★</text>
     <line x1="82" y1="373" x2="338" y2="373" stroke="#ffd166" stroke-width="1.5" opacity=".8"/>
 
-    <!-- Center Hunter Emblem Badge -->
+    <!-- Center Hunter Emblem Badge (Double-Bezel Nested) -->
     <g transform="translate(165, 385)">
-      <circle cx="45" cy="45" r="45" fill="#200a18" stroke="url(#cardborder)" stroke-width="2.5" filter="url(#glow2)"/>
+      <!-- Outer Ring -->
+      <circle cx="45" cy="45" r="45" fill="#200a18" stroke="url(#cardBezelRainbow)" stroke-width="2.5" filter="url(#softGlow)"/>
       <circle cx="45" cy="45" r="41" fill="none" stroke="#ffd166" stroke-width="1" stroke-dasharray="5,4" opacity="0.6"/>
 
       <!-- Authentic Hunter Double-Crescent Symbol -->
       <g class="rune-pulse" transform="translate(36, 45)">
-        <!-- Left Crescent Arc -->
         <path d="M 0,-24 C -14,-14 -14,14 0,24 C -6,14 -6,-14 0,-24 Z" fill="#e63946" stroke="#ffd166" stroke-width="1.2"/>
-        <!-- Right Crescent Arc -->
         <path d="M 18,-24 C 32,-14 32,14 18,24 C 24,14 24,-14 18,-24 Z" fill="#e63946" stroke="#ffd166" stroke-width="1.2"/>
-        <!-- Center Gold Core Diamond &amp; Cross -->
         <polygon points="9,-12 14,0 9,12 4,0" fill="#ffd166" stroke="#ff9f1c" stroke-width="0.8"/>
         <circle cx="9" cy="0" r="2.5" fill="#ffffff"/>
         <line x1="1" y1="0" x2="17" y2="0" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
       </g>
     </g>
 
-    <!-- Cardholder Info &amp; Details -->
+    <!-- Cardholder Credentials Section -->
     <g transform="translate(210, 498)">
-      <text class="card-name" x="0" y="0" fill="url(#nameg)" font-size="20" text-anchor="middle" filter="url(#glow2)">K DESWANTH</text>
+      <text class="card-name" x="0" y="0" fill="url(#nameGradient)" font-size="20" text-anchor="middle" filter="url(#softGlow)">K DESWANTH</text>
       <text x="0" y="20" fill="#ffd166" font-size="10.5" font-weight="700" letter-spacing="1" text-anchor="middle">SOFTWARE &amp; OPEN SOURCE HUNTER</text>
       <line x1="-90" y1="30" x2="90" y2="30" stroke="#e63946" stroke-width="1" opacity=".6"/>
 
@@ -128,8 +132,8 @@ text { font-family: 'Fira Code', Consolas, monospace; }
     </g>
 
     <!-- Holographic Sheen Sweep -->
-    <g clip-path="url(#cardclip)">
-      <rect class="shine" x="82" y="298" width="160" height="330" fill="url(#shineg)"/>
+    <g clip-path="url(#passClip)">
+      <rect class="shine" x="82" y="298" width="160" height="330" fill="url(#shineGradient)"/>
     </g>
   </g>
 </g>
