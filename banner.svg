@@ -1,338 +1,255 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="K Deswanth — Principal Software Developer &amp; Open Source Hunter">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="K Deswanth — Software Developer | Python, Flutter &amp; Open Source">
 <title>K Deswanth — Software Developer | Python, Flutter &amp; Open Source</title>
 <defs>
 <style type="text/css"><![CDATA[
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap');
-text { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif; }
-.code-font { font-family: 'Fira Code', Consolas, monospace; }
-.title-font { font-family: 'Outfit', sans-serif; font-weight: 900; letter-spacing: -1.5px; }
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap');
+text { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.code-font { font-family: 'Fira Code', Consolas, Monaco, monospace; }
+.title-font { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 900; letter-spacing: -2px; }
 
-@keyframes floatHaptic { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
-@keyframes pulseAura { 0%, 100% { opacity: 0.35; filter: drop-shadow(0 0 18px rgba(230, 57, 70, 0.4)); } 50% { opacity: 0.75; filter: drop-shadow(0 0 28px rgba(255, 209, 102, 0.6)); } }
-@keyframes twinkleSoft { 0%, 100% { opacity: 0.25; transform: scale(0.85); } 50% { opacity: 0.95; transform: scale(1.15); } }
-@keyframes cursorBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-@keyframes holoSheen { 0% { transform: translateX(-320px) skewX(-22deg); } 42%, 100% { transform: translateX(400px) skewX(-22deg); } }
-@keyframes crestGlow { 0%, 100% { filter: drop-shadow(0 0 6px rgba(230, 57, 70, 0.8)); } 50% { filter: drop-shadow(0 0 14px rgba(255, 209, 102, 0.9)); } }
+@keyframes auraBreathe { 0%, 100% { opacity: 0.35; transform: scale(0.96); } 50% { opacity: 0.7; transform: scale(1.05); } }
+@keyframes crestRotateSlow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes crestCounterRotate { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+@keyframes sheenSweep { 0% { transform: translateX(-160px) skewX(-20deg); } 40%, 100% { transform: translateX(200px) skewX(-20deg); } }
+@keyframes starTwinkle { 0%, 100% { opacity: 0.2; transform: scale(0.8); } 50% { opacity: 0.85; transform: scale(1.2); } }
 
-.float-card { animation: floatHaptic 5.5s cubic-bezier(0.32, 0.72, 0, 1) infinite; }
-.star-twinkle { transform-box: fill-box; transform-origin: center; animation: twinkleSoft 3.5s ease-in-out infinite; }
-.aura-pulse { animation: pulseAura 4.5s ease-in-out infinite; }
-.cur { animation: cursorBlink 0.85s step-end infinite; }
-.crest-pulse { animation: crestGlow 3.6s ease-in-out infinite; }
-.holo-sweep { animation: holoSheen 5.2s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
-.interactive-pill { transition: transform 0.25s cubic-bezier(0.32, 0.72, 0, 1); }
-.interactive-pill:hover { transform: translateY(-2px); }
+.aura-anim { transform-origin: 940px 180px; animation: auraBreathe 6s ease-in-out infinite; }
+.ring-spin { transform-origin: 940px 180px; animation: crestRotateSlow 45s linear infinite; }
+.ring-reverse { transform-origin: 940px 180px; animation: crestCounterRotate 60s linear infinite; }
+.sheen-anim { animation: sheenSweep 6s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
+.star-anim { transform-box: fill-box; transform-origin: center; animation: starTwinkle 4s ease-in-out infinite; }
 ]]></style>
 
-<!-- Canvas & Bezel Gradients -->
-<linearGradient id="canvasBg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#120710"/>
-  <stop offset="50%" stop-color="#0e040c"/>
-  <stop offset="100%" stop-color="#070206"/>
+<!-- Background Canvas & Lighting Gradients -->
+<linearGradient id="linearCanvasBg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0c070e"/>
+  <stop offset="45%" stop-color="#09050b"/>
+  <stop offset="100%" stop-color="#050207"/>
 </linearGradient>
 
-<linearGradient id="outerBezelRing" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#ffb5a7" stop-opacity="0.45"/>
-  <stop offset="30%" stop-color="#ffd166" stop-opacity="0.25"/>
-  <stop offset="70%" stop-color="#e63946" stop-opacity="0.3"/>
-  <stop offset="100%" stop-color="#f8edeb" stop-opacity="0.1"/>
+<linearGradient id="machinedOuterRim" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+  <stop offset="25%" stop-color="#ffd166" stop-opacity="0.25"/>
+  <stop offset="60%" stop-color="#e63946" stop-opacity="0.2"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
 </linearGradient>
 
-<linearGradient id="innerCoreStroke" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+<linearGradient id="innerCoreHairline" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1"/>
   <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
 </linearGradient>
 
-<linearGradient id="heroTitleGrad" x1="0" y1="0" x2="1" y2="0">
+<!-- Hero Title Linear Gradient -->
+<linearGradient id="linearHeroTitle" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%" stop-color="#ffffff"/>
-  <stop offset="55%" stop-color="#ffeedd"/>
-  <stop offset="100%" stop-color="#ffb5a7"/>
-</linearGradient>
-
-<!-- Volumetric Lighting -->
-<radialGradient id="meshGlowRuby" cx="20%" cy="30%" r="55%">
-  <stop offset="0%" stop-color="#e63946" stop-opacity="0.14"/>
-  <stop offset="100%" stop-color="#e63946" stop-opacity="0"/>
-</radialGradient>
-
-<radialGradient id="meshGlowAmber" cx="70%" cy="40%" r="60%">
-  <stop offset="0%" stop-color="#ffd166" stop-opacity="0.15"/>
-  <stop offset="100%" stop-color="#ffd166" stop-opacity="0"/>
-</radialGradient>
-
-<!-- Hunter License Card Materials -->
-<linearGradient id="hlCardBody" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#1c0915"/>
-  <stop offset="35%" stop-color="#2a0c1e"/>
-  <stop offset="70%" stop-color="#160611"/>
-  <stop offset="100%" stop-color="#0d020a"/>
-</linearGradient>
-
-<linearGradient id="hlCardBezel" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#ffd166"/>
-  <stop offset="30%" stop-color="#ff3366"/>
-  <stop offset="70%" stop-color="#e63946"/>
+  <stop offset="45%" stop-color="#ffffff"/>
+  <stop offset="75%" stop-color="#fcd5ce"/>
   <stop offset="100%" stop-color="#ffd166"/>
 </linearGradient>
 
-<linearGradient id="hlDiagonalSash" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#e63946" stop-opacity="0.42"/>
-  <stop offset="100%" stop-color="#2a0d1f" stop-opacity="0.04"/>
+<!-- Ambient Radial Glows -->
+<radialGradient id="rubyRadialMesh" cx="15%" cy="35%" r="65%">
+  <stop offset="0%" stop-color="#e63946" stop-opacity="0.12"/>
+  <stop offset="100%" stop-color="#e63946" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="amberRadialMesh" cx="80%" cy="50%" r="55%">
+  <stop offset="0%" stop-color="#ffd166" stop-opacity="0.14"/>
+  <stop offset="60%" stop-color="#e63946" stop-opacity="0.05"/>
+  <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+</radialGradient>
+
+<!-- Metallic Emblem Gradients -->
+<linearGradient id="metallicGold" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#fff4b8"/>
+  <stop offset="25%" stop-color="#ffd166"/>
+  <stop offset="55%" stop-color="#d49b20"/>
+  <stop offset="85%" stop-color="#8c5b07"/>
+  <stop offset="100%" stop-color="#ffd166"/>
 </linearGradient>
 
-<linearGradient id="hlChipGold" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#fff275"/>
-  <stop offset="35%" stop-color="#ffd700"/>
-  <stop offset="75%" stop-color="#c69214"/>
-  <stop offset="100%" stop-color="#805b07"/>
+<linearGradient id="metallicCrimson" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#ff6b7a"/>
+  <stop offset="40%" stop-color="#e63946"/>
+  <stop offset="80%" stop-color="#8a1420"/>
+  <stop offset="100%" stop-color="#4a050d"/>
 </linearGradient>
 
-<linearGradient id="hlFoilSweep" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="metallicBezelRing" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#ffd166" stop-opacity="0.8"/>
+  <stop offset="30%" stop-color="#ffffff" stop-opacity="0.9"/>
+  <stop offset="70%" stop-color="#e63946" stop-opacity="0.7"/>
+  <stop offset="100%" stop-color="#d49b20" stop-opacity="0.8"/>
+</linearGradient>
+
+<linearGradient id="emblemSheenGrad" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-  <stop offset="40%" stop-color="#ffffff" stop-opacity="0.05"/>
-  <stop offset="50%" stop-color="#ffd166" stop-opacity="0.26"/>
-  <stop offset="60%" stop-color="#ff3366" stop-opacity="0.14"/>
+  <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
   <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
 </linearGradient>
 
-<filter id="cardVolumetricShadow" x="-25%" y="-25%" width="150%" height="150%">
-  <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#e63946" flood-opacity="0.35"/>
-  <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.75"/>
+<!-- Volumetric Drop Shadow for Emblem -->
+<filter id="emblemVolumetricShadow" x="-30%" y="-30%" width="160%" height="160%">
+  <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#e63946" flood-opacity="0.45"/>
+  <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.85"/>
 </filter>
 
-<clipPath id="hlCardClip">
-  <rect x="546" y="116" width="276" height="178" rx="14"/>
+<clipPath id="emblemClip">
+  <circle cx="940" cy="180" r="76"/>
 </clipPath>
 
-<!-- Micro Dot Grid Pattern -->
-<pattern id="microGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-  <circle cx="2" cy="2" r="0.8" fill="#ffffff" fill-opacity="0.04"/>
+<!-- Micro Dot Grid -->
+<pattern id="dotGridLinear" width="24" height="24" patternUnits="userSpaceOnUse">
+  <circle cx="2" cy="2" r="0.75" fill="#ffffff" fill-opacity="0.04"/>
 </pattern>
 </defs>
 
-<!-- LAYER 0: Canvas Shell (Double-Bezel Architecture) -->
-<rect width="1200" height="420" rx="24" fill="url(#canvasBg)"/>
-<rect width="1200" height="420" rx="24" fill="url(#microGrid)"/>
-<rect width="1196" height="416" x="2" y="2" rx="22" fill="none" stroke="url(#outerBezelRing)" stroke-width="1.6"/>
-<rect width="1190" height="410" x="5" y="5" rx="19" fill="none" stroke="url(#innerCoreStroke)" stroke-width="1"/>
+<!-- LAYER 0: Canvas Base & Machined Double-Bezel -->
+<rect width="1200" height="360" rx="20" fill="url(#linearCanvasBg)"/>
+<rect width="1200" height="360" rx="20" fill="url(#dotGridLinear)"/>
+<rect width="1196" height="356" x="2" y="2" rx="18" fill="none" stroke="url(#machinedOuterRim)" stroke-width="1.4"/>
+<rect width="1190" height="350" x="5" y="5" rx="15" fill="none" stroke="url(#innerCoreHairline)" stroke-width="0.9"/>
 
-<!-- LAYER 1: Ambient Atmospheric Luminescence -->
-<rect width="1200" height="420" rx="24" fill="url(#meshGlowRuby)"/>
-<rect width="1200" height="420" rx="24" fill="url(#meshGlowAmber)"/>
+<!-- LAYER 1: Ambient Mesh Luminescence -->
+<rect width="1200" height="360" rx="20" fill="url(#rubyRadialMesh)"/>
+<rect width="1200" height="360" rx="20" fill="url(#amberRadialMesh)"/>
 
-<!-- LAYER 2: Micro-Geometric Celestial Accents -->
-<g class="star-twinkle" style="animation-delay: 0.1s;"><text x="88" y="76" fill="#ffb5a7" font-size="15">✦</text></g>
-<g class="star-twinkle" style="animation-delay: 1.4s;"><text x="450" y="68" fill="#fcd5ce" font-size="12">✧</text></g>
-<g class="star-twinkle" style="animation-delay: 2.2s;"><text x="608" y="374" fill="#ffd166" font-size="14">✦</text></g>
-<g class="star-twinkle" style="animation-delay: 0.7s;"><text x="1144" y="74" fill="#ffb5a7" font-size="15">✧</text></g>
-<g class="star-twinkle" style="animation-delay: 1.8s;"><text x="1118" y="382" fill="#ffd166" font-size="14">✦</text></g>
+<!-- LAYER 2: Minimal Star Accents -->
+<g class="star-anim" style="animation-delay: 0.3s;"><text x="82" y="54" fill="#ffd166" font-size="12">✦</text></g>
+<g class="star-anim" style="animation-delay: 1.6s;"><text x="730" y="70" fill="#fcd5ce" font-size="10">✧</text></g>
+<g class="star-anim" style="animation-delay: 2.5s;"><text x="1120" y="60" fill="#ffd166" font-size="12">✦</text></g>
+<g class="star-anim" style="animation-delay: 1.1s;"><text x="680" y="324" fill="#fcd5ce" font-size="11">✦</text></g>
 
 <!-- ========================================================= -->
-<!-- LEFT COLUMN: Identity, Haptic Typography &amp; Micro-Telemetry -->
+<!-- LEFT COLUMN: Identity, Linear Typography & Telemetry     -->
 <!-- ========================================================= -->
-<g transform="translate(64, 0)">
-  <!-- Micro Eyebrow Tag (Double-Bezel Nested Architecture) -->
-  <g transform="translate(0, 68)">
-    <rect width="268" height="28" rx="14" fill="#1b0a16" stroke="#ffb5a7" stroke-width="1" stroke-opacity="0.35"/>
-    <rect width="264" height="24" x="2" y="2" rx="12" fill="#140610" stroke="url(#innerCoreStroke)" stroke-width="0.8"/>
-    <!-- Nested Indicator Dot -->
-    <circle cx="15" cy="14" r="3.5" fill="#ffd166"/>
-    <text class="code-font" x="25" y="18" fill="#ffb5a7" font-size="10" font-weight="700" letter-spacing="1.5">HUNTER 2026 // DEV STUDIO</text>
+<g transform="translate(80, 0)">
+
+  <!-- Micro Eyebrow Pill -->
+  <g transform="translate(0, 56)">
+    <rect width="288" height="26" rx="13" fill="#180a15" stroke="url(#machinedOuterRim)" stroke-width="1"/>
+    <rect width="284" height="22" x="2" y="2" rx="11" fill="#10050e" stroke="url(#innerCoreHairline)" stroke-width="0.8"/>
+    <!-- Glowing Status Beacon -->
+    <circle cx="14" cy="13" r="3.5" fill="#ffd166"/>
+    <circle cx="14" cy="13" r="6" fill="#ffd166" fill-opacity="0.25"/>
+    <text class="code-font" x="26" y="17" fill="#ffd166" font-size="10" font-weight="700" letter-spacing="1.4">HUNTER LICENSE // № 2026-1017</text>
   </g>
 
-  <!-- Giant Hero Name with Precision Kerning -->
-  <text class="title-font" x="0" y="160" font-size="62" fill="url(#heroTitleGrad)">K DESWANTH</text>
+  <!-- Giant Hero Title (Precision Spacing) -->
+  <text class="title-font" x="0" y="148" font-size="64" fill="url(#linearHeroTitle)">K DESWANTH</text>
 
   <!-- Role Subtitle with Micro Delimiters -->
-  <g transform="translate(2, 196)">
-    <text x="0" y="0" fill="#fcd5ce" font-size="18.5" font-weight="700" letter-spacing="0.2">Software Developer</text>
-    <text class="code-font" x="175" y="-1" fill="#e63946" font-size="14" font-weight="700">·</text>
-    <text x="190" y="0" fill="#ffd166" font-size="17" font-weight="600">Python, Flutter &amp; Open Source</text>
+  <g transform="translate(2, 186)">
+    <text x="0" y="0" fill="#fcd5ce" font-size="20" font-weight="700" letter-spacing="0.2">Software Developer</text>
+    <text class="code-font" x="194" y="-1" fill="#e63946" font-size="15" font-weight="700">·</text>
+    <text x="210" y="0" fill="#ffd166" font-size="19" font-weight="600">Python, Flutter &amp; Open Source</text>
   </g>
 
-  <!-- Editorial Bio Block with Accent Bar -->
-  <g transform="translate(0, 224)">
-    <line x1="2" y1="6" x2="2" y2="44" stroke="#e63946" stroke-width="2.5" stroke-linecap="round"/>
-    <text class="code-font" x="16" y="18" fill="#bfa5ad" font-size="12.5" font-weight="500">☕ Powered by Chai &amp; Curiosity  //  📍 Tirupati, India 🇮🇳</text>
-    <text class="code-font" x="16" y="38" fill="#9d7e89" font-size="12">&quot;Code with kindness, test thoroughly, keep it clean (˶ᵔ ᵕ ᵔ˶)&quot;</text>
+  <!-- Minimal Linear Tech Pills -->
+  <g transform="translate(0, 222)">
+    <!-- Pill 1: DevTools -->
+    <g transform="translate(0, 0)">
+      <rect width="144" height="32" rx="8" fill="#180a15" stroke="#fcd5ce" stroke-width="1" stroke-opacity="0.3"/>
+      <circle cx="16" cy="16" r="3" fill="#e63946"/>
+      <text class="code-font" x="26" y="20" fill="#fcd5ce" font-size="11.5" font-weight="600">DevTools (AST)</text>
+    </g>
+
+    <!-- Pill 2: Privacy Architecture -->
+    <g transform="translate(156, 0)">
+      <rect width="176" height="32" rx="8" fill="#180a15" stroke="#ffd166" stroke-width="1" stroke-opacity="0.3"/>
+      <circle cx="16" cy="16" r="3" fill="#ffd166"/>
+      <text class="code-font" x="26" y="20" fill="#ffd166" font-size="11.5" font-weight="600">Privacy Architecture</text>
+    </g>
+
+    <!-- Pill 3: Open Source -->
+    <g transform="translate(344, 0)">
+      <rect width="180" height="32" rx="8" fill="#180a15" stroke="#ffb5a7" stroke-width="1" stroke-opacity="0.3"/>
+      <circle cx="16" cy="16" r="3" fill="#ffb5a7"/>
+      <text class="code-font" x="26" y="20" fill="#ffb5a7" font-size="11.5" font-weight="600">Open-Source Hunter</text>
+    </g>
   </g>
 
-  <!-- Interactive Double-Bezel Tech Pills with Nested Icon Badges -->
-  <g transform="translate(0, 314)">
-    <!-- Pill 1: AST Tooling -->
-    <g class="interactive-pill" transform="translate(0, 0)">
-      <rect width="148" height="36" rx="18" fill="#1b0a16" stroke="#ffb5a7" stroke-width="1.2" stroke-opacity="0.45"/>
-      <rect width="144" height="32" x="2" y="2" rx="16" fill="#12050e" stroke="url(#innerCoreStroke)" stroke-width="0.8"/>
-      <!-- Nested Icon Circle -->
-      <circle cx="18" cy="18" r="8" fill="#ffb5a7" fill-opacity="0.18"/>
-      <text class="code-font" x="18" y="21.5" fill="#ffb5a7" font-size="10" font-weight="700" text-anchor="middle">⬡</text>
-      <text class="code-font" x="84" y="22" fill="#ffb5a7" font-size="11" font-weight="600" text-anchor="middle">DevTools (AST)</text>
-    </g>
-
-    <!-- Pill 2: Privacy Apps -->
-    <g class="interactive-pill" transform="translate(158, 0)">
-      <rect width="168" height="36" rx="18" fill="#1b0a16" stroke="#fcd5ce" stroke-width="1.2" stroke-opacity="0.45"/>
-      <rect width="164" height="32" x="2" y="2" rx="16" fill="#12050e" stroke="url(#innerCoreStroke)" stroke-width="0.8"/>
-      <circle cx="18" cy="18" r="8" fill="#fcd5ce" fill-opacity="0.18"/>
-      <text class="code-font" x="18" y="21.5" fill="#fcd5ce" font-size="10" font-weight="700" text-anchor="middle">🛡</text>
-      <text class="code-font" x="90" y="22" fill="#fcd5ce" font-size="11" font-weight="600" text-anchor="middle">Privacy-First Apps</text>
-    </g>
-
-    <!-- Pill 3: MediaPipe -->
-    <g class="interactive-pill" transform="translate(336, 0)">
-      <rect width="148" height="36" rx="18" fill="#1b0a16" stroke="#ffd166" stroke-width="1.2" stroke-opacity="0.45"/>
-      <rect width="144" height="32" x="2" y="2" rx="16" fill="#12050e" stroke="url(#innerCoreStroke)" stroke-width="0.8"/>
-      <circle cx="18" cy="18" r="8" fill="#ffd166" fill-opacity="0.18"/>
-      <text class="code-font" x="18" y="21.5" fill="#ffd166" font-size="10" font-weight="700" text-anchor="middle">✦</text>
-      <text class="code-font" x="84" y="22" fill="#ffd166" font-size="11" font-weight="600" text-anchor="middle">MediaPipe 3D</text>
-    </g>
+  <!-- Micro Location & Philosophy Bar -->
+  <g transform="translate(2, 290)">
+    <line x1="0" y1="2" x2="0" y2="18" stroke="#e63946" stroke-width="2" stroke-linecap="round"/>
+    <text class="code-font" x="12" y="14" fill="#a88c95" font-size="12" font-weight="500">📍 Tirupati, India  <tspan fill="#e63946">·</tspan>  &quot;Code with kindness, test thoroughly, keep it clean&quot;</text>
   </g>
 </g>
 
 <!-- ========================================================= -->
-<!-- CENTER COLUMN: Hunter License (Reverse Stealth Edition)   -->
-<!-- Floating Magnetic Pedestal with Double-Bezel Card Shell   -->
+<!-- RIGHT COLUMN: Refined Metallic Hunter Emblem &amp; Pedestal  -->
+<!-- High-End Machined Seal with Celestial Orbital Rings       -->
 <!-- ========================================================= -->
-<g class="float-card">
-  <!-- Volumetric Magnetic Aura Underglow -->
-  <ellipse class="aura-pulse" cx="684" cy="205" rx="144" ry="94" fill="#e63946" opacity="0.32" filter="blur(18px)"/>
+<g>
+  <!-- Ambient Volumetric Aura Glow -->
+  <circle class="aura-anim" cx="940" cy="172" r="95" fill="#e63946" opacity="0.38" filter="blur(26px)"/>
+  <circle class="aura-anim" cx="940" cy="172" r="65" fill="#ffd166" opacity="0.30" filter="blur(18px)"/>
 
-  <!-- Physical Card Body (Double-Bezel Architecture) -->
-  <g filter="url(#cardVolumetricShadow)">
-    <!-- Outer Machined Bezel -->
-    <rect x="546" y="116" width="276" height="178" rx="14" fill="url(#hlCardBody)" stroke="url(#hlCardBezel)" stroke-width="1.8"/>
+  <!-- Rotating Celestial Outer Orbital Ring -->
+  <g class="ring-spin">
+    <circle cx="940" cy="172" r="112" fill="none" stroke="#ffd166" stroke-width="1.2" stroke-dasharray="3,12" stroke-opacity="0.45"/>
+    <circle cx="940" cy="172" r="124" fill="none" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="1,24" stroke-opacity="0.25"/>
+    <!-- Orbit Cardinal Pips -->
+    <circle cx="940" cy="60" r="2.5" fill="#ffd166"/>
+    <circle cx="940" cy="284" r="2.5" fill="#ffd166"/>
+    <circle cx="828" cy="172" r="2.5" fill="#e63946"/>
+    <circle cx="1052" cy="172" r="2.5" fill="#e63946"/>
+  </g>
 
-    <!-- Concentric Inner Highlight -->
-    <rect x="549" y="119" width="270" height="172" rx="11" fill="none" stroke="url(#innerCoreStroke)" stroke-width="1"/>
+  <!-- Counter-Rotating Inner Ring with Degree Ticks -->
+  <g class="ring-reverse">
+    <circle cx="940" cy="172" r="92" fill="none" stroke="#ffb5a7" stroke-width="0.9" stroke-dasharray="8,6" stroke-opacity="0.35"/>
+  </g>
 
-    <!-- Clipped Internal Texture &amp; Holographic Elements -->
-    <g clip-path="url(#hlCardClip)">
-      <!-- Diagonal Reverse Crimson Sash -->
-      <path d="M 546,116 L 738,116 L 642,294 L 546,294 Z" fill="url(#hlDiagonalSash)"/>
+  <!-- Main Machined Emblem Body -->
+  <g filter="url(#emblemVolumetricShadow)">
+    <!-- Base Medallion Shell -->
+    <circle cx="940" cy="172" r="76" fill="#150711" stroke="url(#metallicBezelRing)" stroke-width="2.2"/>
+    <circle cx="940" cy="172" r="72" fill="#0d030a" stroke="url(#innerCoreHairline)" stroke-width="1"/>
 
-      <!-- Precision Pinstripes -->
-      <line x1="546" y1="138" x2="720" y2="138" stroke="#ff3366" stroke-width="0.6" stroke-opacity="0.3"/>
-      <line x1="546" y1="270" x2="710" y2="270" stroke="#ffd166" stroke-width="0.6" stroke-opacity="0.25"/>
-
-      <!-- Background Hunter Crest Watermark -->
-      <g transform="translate(744, 205) scale(1.65)" opacity="0.08">
-        <path d="M 0,-24 C -14,-14 -14,14 0,24 C -6,14 -6,-14 0,-24 Z" fill="#ffffff"/>
-        <path d="M 18,-24 C 32,-14 32,14 18,24 C 24,14 24,-14 18,-24 Z" fill="#ffffff"/>
-      </g>
+    <!-- Subtle Radial Guilloché / Radial Lines -->
+    <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="0.8">
+      <line x1="940" y1="102" x2="940" y2="242"/>
+      <line x1="870" y1="172" x2="1010" y2="172"/>
+      <line x1="890" y1="122" x2="990" y2="222"/>
+      <line x1="890" y1="222" x2="990" y2="122"/>
     </g>
 
-    <!-- Top Card Micro-Header -->
-    <text class="code-font" x="564" y="135" fill="#ffd166" font-size="8" font-weight="700" letter-spacing="2">HUNTER ASSOCIATION</text>
+    <!-- Authentic Hunter Association Wings (Left & Right Crescents) -->
+    <g transform="translate(940, 172)">
+      <!-- Left Crescent Blade (Metallic Gradient) -->
+      <path d="M -12,-34 C -36,-18 -36,18 -12,34 C -22,18 -22,-18 -12,-34 Z" fill="url(#metallicCrimson)" stroke="url(#metallicGold)" stroke-width="1.4"/>
+      
+      <!-- Right Crescent Blade (Metallic Gradient) -->
+      <path d="M 12,-34 C 36,-18 36,18 12,34 C 22,18 22,-18 12,-34 Z" fill="url(#metallicCrimson)" stroke="url(#metallicGold)" stroke-width="1.4"/>
 
-    <!-- Contactless Wave Icon (NFC) -->
-    <g transform="translate(794, 130)" stroke="#ffd166" stroke-width="1.2" fill="none" stroke-linecap="round">
-      <path d="M 0,0 C 2,2 2,6 0,8" opacity="0.45"/>
-      <path d="M 3,-2 C 6,1 6,9 3,12" opacity="0.75"/>
-      <path d="M 6,-4 C 10,0 10,12 6,16"/>
+      <!-- Center Star & Diamond Core -->
+      <!-- Outer Diamond -->
+      <polygon points="0,-18 8,-3 0,12 -8,-3" fill="url(#metallicGold)" stroke="#ffffff" stroke-width="0.8"/>
+      <!-- Inner Brilliant Facet -->
+      <polygon points="0,-13 5,-3 0,8 -5,-3" fill="#ffffff" fill-opacity="0.9"/>
+      <circle cx="0" cy="-3" r="2.2" fill="#8c5b07"/>
+
+      <!-- Horizontal Meridian Line -->
+      <line x1="-38" y1="-3" x2="38" y2="-3" stroke="url(#metallicGold)" stroke-width="1.2" stroke-linecap="round"/>
+      <circle cx="-38" cy="-3" r="1.8" fill="#ffd166"/>
+      <circle cx="38" cy="-3" r="1.8" fill="#ffd166"/>
     </g>
 
-    <!-- Precision EMV Gold Smart Microchip (Double-Bezel Nested) -->
-    <g transform="translate(564, 144)">
-      <rect width="36" height="26" rx="4" fill="url(#hlChipGold)" stroke="#8c5b07" stroke-width="0.8"/>
-      <rect width="34" height="24" x="1" y="1" rx="3" fill="none" stroke="#fff275" stroke-width="0.5" stroke-opacity="0.6"/>
-      <!-- Etched Circuit Contacts -->
-      <path d="M 0,9 h 12 v 8 h -12 M 36,9 h -12 v 8 h 12 M 18,0 v 7 M 18,26 v -7" stroke="#5c3f03" stroke-width="1.1" fill="none" opacity="0.85"/>
-      <circle cx="18" cy="13" r="2" fill="#5c3f03" opacity="0.85"/>
-    </g>
-
-    <!-- License Title Beside Chip -->
-    <text x="608" y="156" fill="#ffffff" font-size="13" font-weight="900" letter-spacing="1.2">HUNTER LICENSE</text>
-    <text class="code-font" x="608" y="168" fill="#ff9f1c" font-size="7.5" font-weight="700" letter-spacing="1">REVERSE EDITION • ハンター</text>
-
-    <!-- Authentic Hunter Emblem Symbol (Right Center) with Pulsing Glow -->
-    <g class="crest-pulse" transform="translate(760, 205)">
-      <!-- Outer Orbit Ring -->
-      <circle cx="9" cy="0" r="32" fill="none" stroke="#e63946" stroke-width="1.4" stroke-dasharray="4,3" opacity="0.5"/>
-      <!-- Left Crescent Arc -->
-      <path d="M 0,-20 C -12,-12 -12,12 0,20 C -5,12 -5,-12 0,-20 Z" fill="#e63946" stroke="#ffd166" stroke-width="1.1"/>
-      <!-- Right Crescent Arc -->
-      <path d="M 18,-20 C 30,-12 30,12 18,20 C 23,12 23,-12 18,-20 Z" fill="#e63946" stroke="#ffd166" stroke-width="1.1"/>
-      <!-- Center Diamond &amp; Cross Core -->
-      <polygon points="9,-10 13,0 9,10 5,0" fill="#ffd166" stroke="#ff9f1c" stroke-width="0.6"/>
-      <circle cx="9" cy="0" r="2" fill="#ffffff"/>
-      <line x1="2" y1="0" x2="16" y2="0" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round"/>
-    </g>
-
-    <!-- Cardholder Credentials Section -->
-    <g transform="translate(564, 191)">
-      <text class="code-font" x="0" y="0" fill="#a88c95" font-size="7" font-weight="600" letter-spacing="1">CARDHOLDER NAME</text>
-      <text x="0" y="15" fill="#ffffff" font-size="13.5" font-weight="900" letter-spacing="1.2">K. DESWANTH</text>
-      <text x="0" y="29" fill="#fcd5ce" font-size="8.2" font-weight="600">SOFTWARE &amp; OPEN-SOURCE HUNTER</text>
-
-      <!-- Laser Divider -->
-      <line x1="0" y1="38" x2="165" y2="38" stroke="#e63946" stroke-width="0.8" stroke-opacity="0.45"/>
-
-      <!-- License Serial &amp; Star Rank -->
-      <text class="code-font" x="0" y="50" fill="#a88c95" font-size="6.5" font-weight="600" letter-spacing="0.8">LICENSE NO.</text>
-      <text class="code-font" x="0" y="63" fill="#ffd166" font-size="8.8" font-weight="700" letter-spacing="1.5">№ 2026-1017-HXH-0012</text>
-      <text class="code-font" x="0" y="77" fill="#ff9f1c" font-size="7.5" font-weight="700">★☆☆ SINGLE-STAR HUNTER</text>
-    </g>
-
-    <!-- Animated Holographic Foil Sweep -->
-    <g clip-path="url(#hlCardClip)">
-      <rect class="holo-sweep" x="546" y="116" width="125" height="178" fill="url(#hlFoilSweep)"/>
+    <!-- Foil Holographic Sheen Sweep (Clipped) -->
+    <g clip-path="url(#emblemClip)">
+      <rect class="sheen-anim" x="840" y="96" width="70" height="152" fill="url(#emblemSheenGrad)"/>
     </g>
   </g>
 
-  <!-- Nested Status Pill Beneath Card (Double-Bezel) -->
-  <g transform="translate(684, 318)">
-    <rect x="-96" y="-14" width="192" height="28" rx="14" fill="#1b0a16" stroke="#ffd166" stroke-width="1.2" stroke-opacity="0.6"/>
-    <rect x="-93" y="-11" width="186" height="22" rx="11" fill="#12050e" stroke="url(#innerCoreStroke)" stroke-width="0.8"/>
-    <!-- Pulsing Indicator Dot -->
-    <circle cx="-76" cy="0" r="3" fill="#ffd166"/>
-    <text class="code-font" x="4" y="4" fill="#ffd166" font-size="9.5" font-weight="700" letter-spacing="1.2" text-anchor="middle">PRO HUNTER • VERIFIED</text>
+  <!-- Typography Below Emblem: Executive Credential -->
+  <g transform="translate(940, 276)" text-anchor="middle">
+    <!-- Outer Status Pill -->
+    <rect x="-82" y="-12" width="164" height="24" rx="12" fill="#150711" stroke="url(#machinedOuterRim)" stroke-width="0.9"/>
+    <!-- Micro Tag -->
+    <text class="code-font" x="0" y="4" fill="#ffd166" font-size="9" font-weight="700" letter-spacing="1.6">PRO HUNTER · VERIFIED</text>
+    <text class="code-font" x="0" y="24" fill="#a88c95" font-size="7.5" font-weight="600" letter-spacing="1.8">ハンター協会 • SINGLE-STAR</text>
   </g>
 </g>
 
-<!-- ========================================================= -->
-<!-- RIGHT COLUMN: Frosted Terminal Window (`deswanth.ts`)      -->
-<!-- Double-Bezel macOS / Linear Window Architecture           -->
-<!-- ========================================================= -->
-<g transform="translate(830, 68)">
-  <!-- Outer Window Shell -->
-  <rect width="320" height="284" rx="18" fill="#160a14" fill-opacity="0.95" stroke="url(#outerBezelRing)" stroke-width="1.4"/>
-  <rect width="316" height="280" x="2" y="2" rx="16" fill="none" stroke="url(#innerCoreStroke)" stroke-width="1"/>
-
-  <!-- Window Header Titlebar -->
-  <rect width="320" height="38" rx="18" fill="#200d1c"/>
-  <rect width="320" height="18" y="20" fill="#200d1c"/>
-  <line x1="0" y1="38" x2="320" y2="38" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.08"/>
-
-  <!-- Concentric Window Control Pearls -->
-  <circle cx="20" cy="19" r="5.5" fill="#ff5f56"/>
-  <circle cx="37" cy="19" r="5.5" fill="#ffbd2e"/>
-  <circle cx="54" cy="19" r="5.5" fill="#27c93f"/>
-
-  <!-- Active Tab Pill -->
-  <g transform="translate(100, 8)">
-    <rect width="120" height="22" rx="6" fill="#150712" stroke="url(#innerCoreStroke)" stroke-width="0.6"/>
-    <text class="code-font" x="60" y="15" fill="#ffb5a7" font-size="11" font-weight="600" text-anchor="middle">deswanth.ts</text>
-  </g>
-
-  <!-- Syntax-Highlighted Code Block -->
-  <g class="code-font" transform="translate(20, 64)">
-    <text x="0" y="0" fill="#ffb5a7" font-size="11.5" font-weight="600">const <tspan fill="#ffffff">developer</tspan> = {</text>
-    <text x="14" y="24" fill="#a88c95" font-size="11">name: <tspan fill="#ffd166">&quot;K Deswanth&quot;</tspan>,</text>
-    <text x="14" y="46" fill="#a88c95" font-size="11">stack: [<tspan fill="#fcd5ce">&quot;Python&quot;</tspan>, <tspan fill="#fcd5ce">&quot;Flutter&quot;</tspan>, <tspan fill="#fcd5ce">&quot;React&quot;</tspan>],</text>
-    <text x="14" y="68" fill="#a88c95" font-size="11">flagships: [</text>
-    <text x="28" y="90" fill="#ffd166" font-size="10.5">&quot;RepoLens (AST CLI)&quot;,</text>
-    <text x="28" y="110" fill="#ffd166" font-size="10.5">&quot;Sagiro (Offline Budget)&quot;,</text>
-    <text x="28" y="130" fill="#ffd166" font-size="10.5">&quot;Cyber Security Toolkit&quot;</text>
-    <text x="14" y="152" fill="#a88c95" font-size="11">],</text>
-    <text x="14" y="174" fill="#a88c95" font-size="11">status: <tspan fill="#ffd166">&quot;shipping open source 📦&quot;</tspan></text>
-    <text x="0" y="196" fill="#ffb5a7" font-size="11.5" font-weight="600">};</text>
-
-    <!-- Terminal Prompt Line -->
-    <g transform="translate(0, 222)">
-      <text x="0" y="0" fill="#ffb5a7" font-size="11" font-weight="600">&gt;</text>
-      <text x="14" y="0" fill="#a88c95" font-size="10.5">ready to collaborate</text>
-      <rect class="cur" x="146" y="-10" width="7" height="13" fill="#ffd166"/>
-    </g>
-  </g>
-</g>
 </svg>
