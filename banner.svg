@@ -111,23 +111,21 @@ text { font-family: 'Fira Code', Consolas, monospace; }
   <text class="hero-title flame-bg" x="0" y="0" font-size="80" fill="url(#titleGrad)" filter="url(#glow)">K DESWANTH</text>
   
   <g transform="translate(0, 48)">
-    <text x="0" y="0" fill="#f5eaec" font-size="22" font-weight="600" letter-spacing="0.5">
-      AI Infrastructure Architect &amp; Cybernetics Engineer 🤖
-    </text>
+    <text x="0" y="0" fill="#f5eaec" font-size="18" font-weight="600" letter-spacing="0.5">Software Developer | Python, Flutter &amp; Open Source ✨</text>
   </g>
   
   <!-- Mission Quote Box -->
   <g transform="translate(0, 92)">
     <rect width="550" height="54" rx="12" fill="#18070d" stroke="#e63946" stroke-width="1.5" opacity="0.9"/>
     <text x="20" y="33" fill="#ffd166" font-size="15" font-style="italic">
-      🤖 &quot;Building AI proxy gateways, computer vision &amp; enterprise platforms.&quot;
+      🌸 &quot;Building developer tools, privacy-first apps &amp; computer vision.&quot;
     </text>
   </g>
 
   <!-- Quick System Stats Telemetry -->
   <g transform="translate(0, 165)">
     <rect width="550" height="44" rx="8" fill="#120509" stroke="#ff9f1c" stroke-width="1" opacity="0.8"/>
-    <text x="16" y="27" fill="#a48c92" font-size="12">CORE FOCUS: <tspan fill="#ffd166" font-weight="700">AI PROXY GATEWAYS</tspan> | CV: <tspan fill="#ff9f1c" font-weight="700">3D MEDIAPIPE</tspan> | SYSTEM: <tspan fill="#e63946" font-weight="700">SECURE</tspan></text>
+    <text x="16" y="27" fill="#a48c92" font-size="12">CORE FOCUS: <tspan fill="#ffd166" font-weight="700">DEV TOOLS (AST)</tspan> | MOBILE: <tspan fill="#ff9f1c" font-weight="700">FLUTTER</tspan> | SYSTEM: <tspan fill="#e63946" font-weight="700">ONLINE</tspan></text>
   </g>
 </g>
 
@@ -154,7 +152,7 @@ text { font-family: 'Fira Code', Consolas, monospace; }
   <!-- Name Badge Overlay -->
   <g transform="translate(780, 395)">
     <rect x="-80" y="-14" width="160" height="28" rx="14" fill="#1a080e" stroke="#ff9f1c" stroke-width="1.5" filter="url(#glow)"/>
-    <text x="0" y="4" fill="#ffd166" font-size="12" font-weight="700" text-anchor="middle">⚡ K DESWANTH | AI INFRA ⚡</text>
+    <text x="0" y="4" fill="#ffd166" font-size="12" font-weight="700" text-anchor="middle">✦ K DESWANTH | DEV ✦</text>
   </g>
 </g>
 
@@ -172,22 +170,22 @@ text { font-family: 'Fira Code', Consolas, monospace; }
   <!-- Code Telemetry Content -->
   <g transform="translate(16, 60)">
     <text x="0" y="18" fill="#e63946" font-size="12">&gt; const deswanth = {</text>
-    <text x="14" y="40" fill="#ff9f1c" font-size="11">engineer: <tspan fill="#ffd166">&quot;k Deswanth&quot;</tspan>,</text>
+    <text x="14" y="40" fill="#ff9f1c" font-size="11">engineer: <tspan fill="#ffd166">&quot;K Deswanth&quot;</tspan>,</text>
     <text x="14" y="62" fill="#ff9f1c" font-size="11">handle: <tspan fill="#ffd166">&quot;deswanth12&quot;</tspan>,</text>
-    <text x="14" y="84" fill="#ff9f1c" font-size="11">role: <tspan fill="#ffd166">&quot;AI Infra Developer 🤖&quot;</tspan>,</text>
+    <text x="14" y="84" fill="#ff9f1c" font-size="11">role: <tspan fill="#ffd166">&quot;Software Developer ✨&quot;</tspan>,</text>
     <text x="14" y="106" fill="#ff9f1c" font-size="11">flagships: [</text>
-    <text x="28" y="128" fill="#ffd166" font-size="11">&quot;EvalMesh (AI Proxy Gateway)&quot;,</text>
-    <text x="28" y="150" fill="#ffd166" font-size="11">&quot;JanAI (GovWelfare Platform)&quot;,</text>
-    <text x="28" y="172" fill="#ffd166" font-size="11">&quot;Sign Language AI (MediaPipe)&quot;,</text>
-    <text x="28" y="194" fill="#ffd166" font-size="11">&quot;Cyber Security Toolkit&quot;</text>
+    <text x="28" y="128" fill="#ffd166" font-size="11">&quot;RepoLens (AST Analysis CLI)&quot;,</text>
+    <text x="28" y="150" fill="#ffd166" font-size="11">&quot;Sagiro (Offline Budget App)&quot;,</text>
+    <text x="28" y="172" fill="#ffd166" font-size="11">&quot;Cyber Security Toolkit&quot;,</text>
+    <text x="28" y="194" fill="#ffd166" font-size="11">&quot;Sign Language AI (MediaPipe)&quot;</text>
     <text x="14" y="216" fill="#ff9f1c" font-size="11">],</text>
-    <text x="14" y="238" fill="#ff9f1c" font-size="11">stack: <tspan fill="#ffd166">&quot;Python, TS, React, Flask&quot;</tspan>,</text>
-    <text x="14" y="260" fill="#ff9f1c" font-size="11">status: <tspan fill="#ffd166">&quot;Scaling AI Proxy Infra&quot;</tspan></text>
+    <text x="14" y="238" fill="#ff9f1c" font-size="11">stack: <tspan fill="#ffd166">&quot;Python, Flutter, React, SQLite&quot;</tspan>,</text>
+    <text x="14" y="260" fill="#ff9f1c" font-size="11">status: <tspan fill="#ffd166">&quot;Shipping Open Source Code&quot;</tspan></text>
     <text x="0" y="282" fill="#e63946" font-size="12">};</text>
 
     <!-- Terminal Command Line -->
-    <text x="0" y="322" fill="#ffd166" font-size="11">deswanth@infra:~ $ <tspan fill="#ff9f1c">evalmesh --deploy</tspan></text>
-    <text x="0" y="348" fill="#e63946" font-size="11">✔ 5ms Semantic Cache Active <tspan class="cur" fill="#ffd166">█</tspan></text>
+    <text x="0" y="322" fill="#ffd166" font-size="11">deswanth@laptop:~$ <tspan fill="#ff9f1c">repolens onboard .</tspan></text>
+    <text x="0" y="348" fill="#e63946" font-size="11">✔ Contributor Guide Ready <tspan class="cur" fill="#ffd166">█</tspan></text>
   </g>
 </g>
 
