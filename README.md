@@ -100,9 +100,9 @@ motto: "Build practical software, test thoroughly, keep it clean (˶ᵔ ᵕ ᵔ�
 ## 📈 Activity & Commits
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=deswanth12&show_icons=true&bg_color=180a0e&title_color=ffd166&text_color=c0a0a8&icon_color=ff9f1c&border_color=ff9f1c&border_radius=14" height="180" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=deswanth12&show_icons=true&hide_rank=true&include_all_commits=true&bg_color=180a0e&title_color=ffd166&text_color=c0a0a8&icon_color=ff9f1c&border_color=ff9f1c&border_radius=14&custom_title=K%20Deswanth's%20GitHub%20Stats" height="185" alt="GitHub Stats"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deswanth12&layout=compact&bg_color=180a0e&title_color=ffd166&text_color=c0a0a8&border_color=e63946&border_radius=14" height="180" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deswanth12&layout=compact&bg_color=180a0e&title_color=ffd166&text_color=c0a0a8&border_color=e63946&border_radius=14" height="185" alt="Top Languages"/>
 </p>
 
 <br/><br/>
