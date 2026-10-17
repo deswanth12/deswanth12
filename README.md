@@ -2,9 +2,9 @@
 
 <!-- ✨ Dual-Theme Header Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=9">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=9">
-  <img src="./banner.svg?v=9" alt="Deswanth Banner" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=10">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=10">
+  <img src="./banner.svg?v=10" alt="Deswanth Banner" width="100%"/>
 </picture>
 
 <br/>
@@ -31,8 +31,8 @@
  └─────────────────────────────────────────────────────────────┘
 ```
 
-<!-- 🪪 ID Badge / Avatar -->
-<img src="./lanyard.svg?v=8" alt="k Deswanth Badge" width="280"/>
+<!-- 🪪 Hunter License Pass (Reverse Theme) -->
+<img src="./lanyard.svg?v=10" alt="k Deswanth Hunter License Badge" width="280"/>
 
 </div>
 
