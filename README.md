@@ -114,7 +114,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=deswanth12&color=e63946&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+<img src="https://api.visitorbadge.io/api/visitors?path=deswanth12&label=Profile%20Views&labelColor=120710&countColor=e63946&style=flat-square" alt="Profile Views"/>
 
 <br/><br/>
 
