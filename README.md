@@ -14,13 +14,13 @@
 
 <p align="center">
   <a href="https://portfolio-plum-sigma-etfrkmq5t9.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-ffb5a7?style=flat-square&logo=vercel&logoColor=140711" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-Visit_Website-ffb5a7?style=flat-square&logo=vercel&logoColor=140711" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/deswanth">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-fcd5ce?style=flat-square&logo=linkedin&logoColor=140711" alt="LinkedIn"/>
   </a>
-  <img src="https://img.shields.io/badge/📍_Tirupati,_India-fbc4ab?style=flat-square&logoColor=140711" alt="Location"/>
-  <img src="https://img.shields.io/badge/☕_Powered_by-Chai-ffd166?style=flat-square&logoColor=140711" alt="Fuel"/>
+  <img src="https://img.shields.io/badge/Location-Tirupati%2C_India-fbc4ab?style=flat-square&logoColor=140711" alt="Location"/>
+  <img src="https://img.shields.io/badge/Powered_by-Masala_Chai-ffd166?style=flat-square&logoColor=140711" alt="Fuel"/>
 </p>
 
 <!-- 🪪 Compact Hunter License Pass -->
@@ -88,7 +88,7 @@
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=deswanth12&bg_color=120710&color=ffd166&line=e63946&point=fcd5ce&area=true&area_color=e63946&hide_border=false&border_color=e63946&border_radius=14&custom_title=Contribution%20Heartbeat%20🌸" width="92%"/>
+<img src="https://raw.githubusercontent.com/deswanth12/deswanth12/output/github-snake-flame.svg" alt="GitHub Contribution Snake" width="100%"/>
 
 <br/><br/>
 
@@ -114,7 +114,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=deswanth12&color=fcd5ce&style=flat-square&label=Profile+Views" alt="Visitors"/>
+<img src="https://komarev.com/ghpvc/?username=deswanth12&color=e63946&style=flat-square&label=Profile+Views" alt="Profile Views"/>
 
 <br/><br/>
 
