@@ -2,9 +2,9 @@
 
 <!-- ✨ Dual-Theme Header Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=12">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=12">
-  <img src="./banner.svg?v=12" alt="Deswanth Banner" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=13">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=13">
+  <img src="./banner.svg?v=13" alt="Deswanth Banner" width="100%"/>
 </picture>
 
 <br/>
